@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BioSynth_MidasGland_ModName>BioSynthetic - Midas Gland</BioSynth_MidasGland_ModName>
+	<BioSynth_MidasGland_TopWarning>Changing these options will require restarting the game to apply.</BioSynth_MidasGland_TopWarning>
+	<BioSynth_MidasGland_BottomWarning>Don't see the options you chose? Restart your game!</BioSynth_MidasGland_BottomWarning>
+
+	<BioSynth_MidasGland_LabelOne>Gold Options</BioSynth_MidasGland_LabelOne>
+	<BioSynth_MidasGland_RoyalGoldGlandOnly>Midas Gland Royal Gold</BioSynth_MidasGland_RoyalGoldGlandOnly>
+	<BioSynth_MidasGland_RoyalGoldGlandOnly_Desc>Toggle this to make the Midas Gland use the new color that comes with the Royalty DLC and its prestige armor, which has a deeper luster that some may prefer over the vanilla.</BioSynth_MidasGland_RoyalGoldGlandOnly_Desc>
+	<BioSynth_MidasGland_RoyalGold>All Gold is Royal Gold</BioSynth_MidasGland_RoyalGold>
+	<BioSynth_MidasGland_RoyalGold_Desc>Toggle this to make all gold use the new color that comes with the Royalty DLC and its prestige armor, which has a deeper luster that some may prefer over the vanilla.</BioSynth_MidasGland_RoyalGold_Desc>
+
+	<BioSynth_MidasGland_LabelTwo>Silver Options</BioSynth_MidasGland_LabelTwo>
+	<BioSynth_MidasGland_ConsistantSilver>Consistent Silver</BioSynth_MidasGland_ConsistantSilver>
+	<BioSynth_MidasGland_ConsistantSilver_Desc>For some reason, silver tiles and silver objects use a different color. Toggle this to make the tiles use the same color as all other objects.</BioSynth_MidasGland_ConsistantSilver_Desc>
+	<BioSynth_MidasGland_GraySilverGlandOnly>Mercury Gland Gray Silver</BioSynth_MidasGland_GraySilverGlandOnly>
+	<BioSynth_MidasGland_GraySilverGlandOnly_Desc>Toggle this to make the Mercury Gland use the same gray color that the silver tile uses, which some may prefer over the vanilla.</BioSynth_MidasGland_GraySilverGlandOnly_Desc>
+	<BioSynth_MidasGland_GraySilver>All Silver is Gray Silver</BioSynth_MidasGland_GraySilver>
+	<BioSynth_MidasGland_GraySilver_Desc>Toggle this to make all silver use the same gray color that the silver tile uses, which some may prefer over the vanilla.</BioSynth_MidasGland_GraySilver_Desc>
+	<BioSynth_MidasGland_ChromeSilverGlandOnly>Mercury Gland is Chrome</BioSynth_MidasGland_ChromeSilverGlandOnly>
+	<BioSynth_MidasGland_ChromeSilverGlandOnly_Desc>Toggle this to make the Mercury Gland use a new gray color based off of chrome, a clean sci-fi look which some may prefer over the vanilla.</BioSynth_MidasGland_ChromeSilverGlandOnly_Desc>
+	<BioSynth_MidasGland_ChromeSilver>Silver is Chrome</BioSynth_MidasGland_ChromeSilver>
+	<BioSynth_MidasGland_ChromeSilver_Desc>Toggle this to make all silver use a new gray color based off of chrome, a clean sci-fi look which some may prefer over the vanilla.</BioSynth_MidasGland_ChromeSilver_Desc>
+	
+</LanguageData>

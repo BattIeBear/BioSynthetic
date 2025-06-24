@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>BioSynthetic: Midas Touched</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BioSynth.MidasTouched</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+V1.6
+
+This adds two new implants, Midas and Mercury glands, which take the same implant slot as the Toughskin/Armorskin/Stoneskin glands. Both glands increase the pawn's beauty score by one, with the Midas gland also increasing psychic sensitivity psychic recover rate, while the Mercury gland increases immunity gain speed and surgery success chance instead.
+
+Like the Toughskin gland, these implants reduce their pawn's movement speed to %95.
+
+Comes with options to switch the Midas gland from the default gold color to the "prestige" gold color added by royalty, or switch ALL gold to the "prestige" color if you prefer.
+
+The silver tile object uses a different silver than all other silver objects, so there is the choice to have the tile use the same color as all other silver objects, to have the Mercury gland use the tile color, or have all silver objects use the tile color if you prefer. And if you don't like either of these vanilla silver colors, this mod also includes options to use a more chrome-like color that offers a classic sci-fi feel.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1149640</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+	
+</ModMetaData>
