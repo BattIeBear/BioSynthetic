@@ -1,0 +1,2 @@
+To activate the mask, the item in question must have <shaderType>CutoutComplex</shaderType> in its <graphicData></graphicData>
+More info here: https://github.com/seraphile/rimshare/wiki/Colouring-in-Images#multiply-layers--alpha-masks

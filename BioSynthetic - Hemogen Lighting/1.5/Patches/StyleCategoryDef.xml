@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Morbid -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StyleCategoryDef[defName="Morbid"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>biosynth_HemogenWallLamp</thingDef>
+							<styleDef>biosynth_HemogenWallLampMorbid</styleDef>
+						</li>
+						<li>
+							<thingDef>biosynth_HemogenLamp</thingDef>
+							<styleDef>biosynth_HemogenLampMorbid</styleDef>
+						</li>
+					</value>
+				</li>
+
+				<!-- Totemic -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StyleCategoryDef[defName="Totemic"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>biosynth_HemogenWallLamp</thingDef>
+							<styleDef>biosynth_HemogenWallLampTotemic</styleDef>
+						</li>
+						<li>
+							<thingDef>biosynth_HemogenLamp</thingDef>
+							<styleDef>biosynth_HemogenLampTotemic</styleDef>
+						</li>
+					</value>
+				</li>
+
+				<!-- Spikecore -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StyleCategoryDef[defName="Spikecore"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>biosynth_HemogenWallLamp</thingDef>
+							<styleDef>biosynth_HemogenWallLampSpikecore</styleDef>
+						</li>
+						<li>
+							<thingDef>biosynth_HemogenLamp</thingDef>
+							<styleDef>biosynth_HemogenLampSpikecore</styleDef>
+						</li>
+					</value>
+				</li>
+
+				<!-- Rustic -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StyleCategoryDef[defName="Rustic"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>biosynth_HemogenWallLamp</thingDef>
+							<styleDef>biosynth_HemogenWallLampRustic</styleDef>
+						</li>
+						<li>
+							<thingDef>biosynth_HemogenLamp</thingDef>
+							<styleDef>biosynth_HemogenLampRustic</styleDef>
+						</li>
+					</value>
+				</li>
+
+				<!-- Techist -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>biosynth_HemogenWallLamp</thingDef>
+							<styleDef>biosynth_HemogenWallLampTechist</styleDef>
+						</li>
+						<li>
+							<thingDef>biosynth_HemogenLamp</thingDef>
+							<styleDef>biosynth_HemogenLampTechist</styleDef>
+						</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

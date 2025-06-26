@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--Ideology-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!--Adds Terror to Macabre Hemogen Wall Lamp-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="biosynth_MacabreHemogenWallLamp"]/statBases</xpath>
+					<value>
+						<TerrorSource>10</TerrorSource>
+					</value>
+				</li>
+
+				<!--Meme-->
+				<li Class="BioSynth_HemogenLighting.MemeOptions">
+					<Meme Class="PatchOperationSequence">
+						<operations>
+
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName="biosynth_HemogenLamp"]</xpath>
+								<value>
+									<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+								</value>
+							</li>
+
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName="biosynth_HemogenWallLamp"]</xpath>
+								<value>
+									<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+								</value>
+							</li>
+
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName="biosynth_MacabreHemogenWallLamp"]</xpath>
+								<value>
+									<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+								</value>
+							</li>
+
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/MemeDef[defName="Bloodfeeding"]</xpath>
+								<value>
+									<addDesignators>
+										<li>biosynth_HemogenLamp</li>
+										<li>biosynth_HemogenWallLamp</li>
+										<li>biosynth_MacabreHemogenWallLamp</li>
+									</addDesignators>
+								</value>
+							</li>
+							
+						</operations>
+					</Meme>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+	<!--Research-->
+	<Operation Class="BioSynth_HemogenLighting.ResearchOptions">
+
+		<Research Class="PatchOperationSequence">
+			<operations>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="biosynth_HemogenLamp"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ColoredLights</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="biosynth_HemogenWallLamp"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ColoredLights</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="biosynth_MacabreHemogenWallLamp"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ColoredLights</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+			</operations>
+		</Research>
+
+	</Operation>
+
+</Patch>

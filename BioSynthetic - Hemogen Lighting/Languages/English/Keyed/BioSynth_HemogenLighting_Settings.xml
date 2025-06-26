@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BioSynth_HemogenLighting_ModName>BioSynthetic - Hemogen Lighting</BioSynth_HemogenLighting_ModName>
+	<BioSynth_HemogenLighting_TopWarning>Changing these options will require restarting the game to apply.</BioSynth_HemogenLighting_TopWarning>
+	<BioSynth_HemogenLighting_BottomWarning>Don't see the options you chose? Restart your game!</BioSynth_HemogenLighting_BottomWarning>
+
+	<BioSynth_HemogenLighting_LabelOne>These options give additional control over when the Hemogen Lights will show up in game:</BioSynth_HemogenLighting_LabelOne>
+	<BioSynth_HemogenLighting_RequiresBloodfeedingMeme>Requires Meme</BioSynth_HemogenLighting_RequiresBloodfeedingMeme>
+	<BioSynth_HemogenLighting_RequiresBloodfeedingMemeDesc>This setting will make it so that only ideologies with the Bloodfeeding meme can build the new lights. If you don't have ideology, it won't do anything.</BioSynth_HemogenLighting_RequiresBloodfeedingMemeDesc>
+	<BioSynth_HemogenLighting_RequiresAdvancedLightsResearch>Requires Research</BioSynth_HemogenLighting_RequiresAdvancedLightsResearch>
+	<BioSynth_HemogenLighting_RequiresAdvancedLightsResearchDesc>This setting will make it so you must research Advanced Lights technology before being able to build the new lights.</BioSynth_HemogenLighting_RequiresAdvancedLightsResearchDesc>
+
+</LanguageData>
