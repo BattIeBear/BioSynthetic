@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Bases -->
+
+	<ThingStyleDef Name="biosynth_HemogenWallLampStyleBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<!-- Morbid -->
+
+	<ThingStyleDef ParentName="biosynth_HemogenWallLampStyleBase">
+		<defName>biosynth_HemogenWallLampMorbid</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/HemogenWallLampMorbid</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/HemogenWallLampMorbid_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>biosynth_HemogenLampMorbid</defName>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Furniture/HemogenLights/MorbidLampStanding</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/MorbidLampStanding_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<!-- Totemic -->
+
+		<ThingStyleDef ParentName="biosynth_HemogenWallLampStyleBase">
+		<defName>biosynth_HemogenWallLampTotemic</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/HemogenWallLampTotemic</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/HemogenWallLampTotemic_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>biosynth_HemogenLampTotemic</defName>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Furniture/HemogenLights/TotemicHemogenLamp</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/TotemicHemogenLamp_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<!-- Spikecore -->
+
+		<ThingStyleDef ParentName="biosynth_HemogenWallLampStyleBase">
+		<defName>biosynth_HemogenWallLampSpikecore</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/HemogenWallLampSpikecore</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/HemogenWallLampSpikecore_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>biosynth_HemogenLampSpikecore</defName>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Furniture/HemogenLights/SpikecoreHemogenLamp</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/SpikecoreHemogenLamp_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<!-- Rustic -->
+
+		<ThingStyleDef ParentName="biosynth_HemogenWallLampStyleBase">
+		<defName>biosynth_HemogenWallLampRustic</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/HemogenWallLampRustic</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/HemogenWallLampRustic_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>biosynth_HemogenLampRustic</defName>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Furniture/HemogenLights/RusticHemogenLamp</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/RusticHemogenLamp_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<!-- Techist -->
+
+	<ThingStyleDef ParentName="biosynth_HemogenWallLampStyleBase">
+		<defName>biosynth_HemogenWallLampTechist</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/HemogenWallLampTechist</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/HemogenWallLampTechist_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>biosynth_HemogenLampTechist</defName>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Furniture/HemogenLights/TechistHemogenLamp</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/TechistHemogenLamp_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+
+</Defs>

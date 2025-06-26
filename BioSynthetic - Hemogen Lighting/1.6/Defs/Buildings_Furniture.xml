@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Electric-->
+	<!--Needs Descriptions-->
+	<!--Hemogen Lamp-->
+
+	<ThingDef ParentName="LampBase">
+		<defName>biosynth_HemogenLamp</defName>
+		<label>hemogen lamp</label>
+		<description>An electrical standing lamp that lights an area. People need light to move and work at full speed.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/HemogenLamp</texPath>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/HemogenLamp_MenuIcon</uiIconPath>
+		<costList>
+			<Steel>20</Steel>
+			<HemogenPack>5</HemogenPack>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<uiOrder>2991</uiOrder>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>30</basePowerConsumption>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.5</factor>
+					</li>
+				</powerUpgrades>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(460, 220, 205, 0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Hemogen Wall Lamp-->
+
+	<ThingDef ParentName="LampBase">
+		<defName>biosynth_HemogenWallLamp</defName>
+		<label>hemogen wall lamp</label>
+		<description>A wall-mounted lamp that lights an area using electricity. It is less powerful than a standing lamp, but can be mounted on walls.</description>
+		<rotatable>true</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/HemogenWallLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/HemogenWallLamp_MenuIcon</uiIconPath>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<costList>
+			<Steel>15</Steel>
+			<HemogenPack>4</HemogenPack>
+		</costList>
+		<statBases>
+			<WorkToBuild>330</WorkToBuild>
+			<MaxHitPoints>35</MaxHitPoints>
+			<Mass>2</Mass>
+		</statBases>
+		<uiOrder>2991</uiOrder>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<pathCost>0</pathCost>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isAttachment>true</isAttachment>
+		</building>
+		<placeWorkers>
+			<li>Placeworker_AttachedToWall</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>30</basePowerConsumption>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.5</factor>
+					</li>
+				</powerUpgrades>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>11</glowRadius>
+				<glowColor>(460, 220, 205, 0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Macabre Wall Lamp-->
+
+	<ThingDef ParentName="LampBase">
+		<defName>biosynth_MacabreHemogenWallLamp</defName>
+		<label>macabre wall lamp</label>
+		<description>A wall-mounted lamp that lights an area using electricity. It is less powerful than a standing lamp, but can be mounted on walls.</description>
+		<thingClass>BioSynth_HemogenLighting.Building_MacabreHemogenWallLamp</thingClass>
+		<rotatable>true</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Furniture/HemogenLights/MacabreWallLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<uiIconPath>Things/Building/Furniture/HemogenLights/SkullIcon</uiIconPath>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<costList>
+			<HemogenPack>4</HemogenPack>
+		</costList>
+		<statBases>
+			<WorkToBuild>330</WorkToBuild>
+			<MaxHitPoints>35</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<uiOrder>2991</uiOrder>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<pathCost>0</pathCost>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isAttachment>true</isAttachment>
+		</building>
+		<placeWorkers>
+			<li>Placeworker_AttachedToWall</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>30</basePowerConsumption>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.5</factor>
+					</li>
+				</powerUpgrades>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>11</glowRadius>
+				<glowColor>(460, 220, 205, 0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Fire-->
+	<!--Wall Blood Torch-->
+
+	<!--Macabre Blood Torch-->
+
+	<!--Macabre Wall Blood Torch-->
+</Defs>
