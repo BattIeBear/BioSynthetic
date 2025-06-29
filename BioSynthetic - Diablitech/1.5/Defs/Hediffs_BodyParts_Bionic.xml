@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Evil Eye -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_EvilEye</defName>
+		<label>evil eye optic</label>
+		<labelNoun>a evil eye optic</labelNoun>
+		<description>An installed evil eye optic. Similar to a bionic eye, its mechanoid-enhanced signal pre-processor and advanced threat detection allows even advanced marksmen to shoot faster and hit more often.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_EvilEye</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_EvilEye</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<AimingDelayFactor>-0.2</AimingDelayFactor>
+					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+					<SocialImpact>-0.1</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+			<li>Diablitech_Eye</li>
+		</tags>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<workerClass>PawnRenderNodeWorker_HediffEye</workerClass>
+				<texPath>Things/Pawn/Wounds/EvilEye</texPath>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.15</drawSize>
+				<drawData>
+					<defaultData>
+						<layer>56</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+					<dataWest>
+						<flip>true</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_EvilEye</defName>
+		<label>evil eye optic</label>
+		<description>An advanced optic array. Similar to a bionic eye, its mechanoid-enhanced signal pre-processor and advanced threat detection allows even advanced marksmen to shoot faster and hit more often.\n\nNamed after the malevolent "evil eye," said to be able to curse those in its gaze.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallEvilEye</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallEvilEye</defName>
+		<label>install evil eye optic</label>
+		<description>Install a evil eye optic.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_EvilEye</ThingDef>
+			<HediffDef>biosynth_EvilEye</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing evil eye optic.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_EvilEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_EvilEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_EvilEye</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>Diablitech_Eye</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<!-- Mephistopheles implant -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_MephistophelesImplant</defName>
+		<label>Mephistopheles implant</label>
+		<labelNoun>a Mephistopheles implant</labelNoun>
+		<description>An installed Mephistopheles implant. This audial implant collects the voices of those around you, and uses a mechanoid signal pre-processor to break down that information. It then provides various information packets about the speaker, all allowing the listener to better sway them.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MephistophelesImplant</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_MephistophelesImplant</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<NegotiationAbility>0.1</NegotiationAbility>
+					<TradePriceImprovement>0.1</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+			<li>Diablitech_Ear</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_MephistophelesImplant</defName>
+		<label>Mephistopheles implant</label>
+		<description>An advanced artificial ear implant. This audial implant collects the voices of those around you, and uses a mechanoid signal pre-processor to break down that information. It then provides various information packets about the speaker, all allowing the listener to better sway them.\n\Named after the demon Mephistopheles.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallMephistophelesImplant</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallMephistophelesImplant</defName>
+		<label>install Mephistopheles implant</label>
+		<description>Install a Mephistopheles implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MephistophelesImplant</ThingDef>
+			<HediffDef>biosynth_MephistophelesImplant</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Mephistopheles implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_MephistophelesImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_MephistophelesImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_MephistophelesImplant</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>Diablitech_Ear</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<!-- Harmonious vox -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_HarmoniousVox</defName>
+		<label>harmonious vox</label>
+		<labelNoun>a harmonious vox</labelNoun>
+		<description>An installed harmonious vox. Made out of biosynthetic bone, this jaw includes a pleasant voice modulator that gives the speaker a soothing lilt.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_HarmoniousVox</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_HarmoniousVox</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ConversionPower>0.15</ConversionPower>
+					<NegotiationAbility>0.1</NegotiationAbility>
+					<SocialImpact>0.1</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_HarmoniousVox</defName>
+		<label>harmonious vox</label>
+		<description>An artificial jaw replacement. Made out of biosynthetic bone, this jaw also includes a pleasant voice modulator that gives the speaker a soothing lilt.\n\nNamed for the bearer's ability to cultivate harmony.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallHarmoniousVox</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>1.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallHarmoniousVox</defName>
+		<label>Install harmonious vox</label>
+		<description>Install harmonious vox.</description>
+		<jobString>Installing harmonious vox.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_HarmoniousVox</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_HarmoniousVox</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_HarmoniousVox</addsHediff>
+	</RecipeDef>
+
+	<!-- Discordant vox -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_DiscordantVox</defName>
+		<label>discordant vox</label>
+		<labelNoun>a discordant vox implant</labelNoun>
+		<description>An installed discordant vox. Made out of biosynthetic bone, this jaw also includes a disruptive voice modulator that gives the speaker a intimidating mechanical snarl.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_DiscordantVox</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_DiscordantVox</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArrestSuccessChance>0.15</ArrestSuccessChance>
+					<NegotiationAbility>0.1</NegotiationAbility>
+					<SuppressionPower>0.15</SuppressionPower>
+					<TradePriceImprovement>-0.1</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_DiscordantVox</defName>
+		<label>discordant vox</label>
+		<description>An artificial jaw replacement. Made out of biosynthetic bone, this jaw also includes a disruptive voice modulator that gives the speaker a intimidating mechanical snarl.\n\nNamed for the bearer's ability to sow discord.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallDiscordantVox</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>1.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallDiscordantVox</defName>
+		<label>Install discordant vox</label>
+		<description>Install discordant vox.</description>
+		<jobString>Installing discordant vox.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_DiscordantVox</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_DiscordantVox</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_DiscordantVox</addsHediff>
+	</RecipeDef>
+
+	<!-- Shadow spine -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_ShadowSpine</defName>
+		<label>shadow spine</label>
+		<labelNoun>a shadow spine</labelNoun>
+		<description>An installed shadow spine. A biogel nerve bundle running down a pawn's spine and equipped with a mechanoid signal pre-processor, it allows pawns to react to dangers with lightning-fast reflexes and have more fluid movement overall.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_ShadowSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_ShadowSpine</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>10</MeleeDodgeChance>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_ShadowSpine</defName>
+		<label>shadow spine</label>
+		<description>An advanced artificial spine. A biogel nerve bundle running down a pawn's spine and equipped with a mechanoid signal pre-processor, it allows pawns to react to dangers with lightning-fast reflexes and have more fluid movement overall.\n\nNamed for the bearer's fleeting shadow.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallShadowSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallShadowSpine</defName>
+		<label>install shadow spine</label>
+		<description>Install a shadow spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_ShadowSpine</ThingDef>
+			<HediffDef>biosynth_ShadowSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing shadow spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_ShadowSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_ShadowSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_ShadowSpine</addsHediff>
+	</RecipeDef>
+
+	<!-- Infernal stomach -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_InfernalStomach</defName>
+		<label>infernal stomach</label>
+		<labelNoun>an infernal stomach</labelNoun>
+		<description>An installed artificial stomach. In addition to improved digestion and lowering the risk of food-borne illness, the bioferrite lining and powerfocus chip allows pawns equipped with this implant to vomit flammable bile.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_InfernalStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_InfernalStomach</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<abilities>
+			<li>biosynth_FireSpit</li>
+		</abilities>
+		<stages>
+			<li>
+				<makeImmuneTo>
+					<li>GutWorms</li>
+				</makeImmuneTo>
+				<foodPoisoningChanceFactor>0.5</foodPoisoningChanceFactor>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_InfernalStomach</defName>
+		<label>infernal stomach</label>
+		<description>An advanced artificial stomach. In addition to improved digestion and lowering the risk of food-borne illness, the bioferrite lining and powerfocus chip allows pawns equipped with this implant to vomit flammable bile.\n\nNamed for the purported heat of the underworld.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallInfernalStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<PowerfocusChip>1</PowerfocusChip>
+			<Bioferrite>20</Bioferrite>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallInfernalStomach</defName>
+		<label>install infernal stomach</label>
+		<description>Install an infernal stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_InfernalStomach</ThingDef>
+			<HediffDef>biosynth_InfernalStomach</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing infernal stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_InfernalStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_InfernalStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_InfernalStomach</addsHediff>
+	</RecipeDef>
+
+	<AbilityDef>
+		<defName>biosynth_FireSpit</defName>
+		<label>fire spit</label>
+		<description>Spit a stream of disgusting, flaming vomit from the mouth which ignites anything or anyone it hits. It is not particularly pleasant, and consumes much of the contents of the user's stomach, but it is effective, and has the added benefit of removing food poisoning.</description>
+		<iconPath>UI/Abilities/FireSpew</iconPath>
+		<cooldownTicksRange>6000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<ai_IsIncendiary>true</ai_IsIncendiary>
+		<sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+		<warmupStartSound>FireSpew_Warmup</warmupStartSound>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>6</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>FireSpew_Resolve</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="BioSynth_Diablitech.CompProperties_AbilityFireSpit">
+				<range>6</range>
+				<lineWidthEnd>3</lineWidthEnd>
+				<filthDef>Filth_Vomit</filthDef>
+				<effecterDef>Fire_Spew</effecterDef>
+				<canHitFilledCells>true</canHitFilledCells>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	<!-- Devil's heart -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_DevilHeart</defName>
+		<label>devil's heart</label>
+		<labelNoun>a devil's heart</labelNoun>
+		<description>An installed devil's heart. A bioferrite shell and fine devilstrand mesh allows for blood to be pumped into a special chamber containing luciferium mechanites without risking them inhabiting the host at a whole. The whole apparatus must be monitored by a Nano Structuring Chip, though even minor damage carries significant risk of Luciferium leaking into the bloodstream.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_DevilHeart</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_DevilHeart</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.3</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<naturalHealingFactor>1.2</naturalHealingFactor>
+				<statOffsets>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.02</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="BioSynth_Diablitech.HediffCompProperties_AddictionOnDamagePart">
+				<anyDamageToPart>true</anyDamageToPart>
+				<createdHigh>LuciferiumHigh</createdHigh>
+				<createdAddiction>LuciferiumAddiction</createdAddiction>
+			</li>
+		</comps>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_DevilHeart</defName>
+		<label>devil's heart</label>
+		<description>An advanced artificial heart. A bioferrite shell and fine devilstrand mesh allows for blood to be pumped into a special chamber containing luciferium mechanites without risking them inhabiting the host at a whole. The whole apparatus must be monitored by a Nano Structuring Chip, though even minor damage carries significant risk of Luciferium leaking into the bloodstream.\n\nNamed after Luciferium, and it's linguistic ties to the Devil.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallDevilHeart</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<NanostructuringChip>1</NanostructuringChip>
+			<Luciferium>1</Luciferium>
+			<DevilstrandCloth>10</DevilstrandCloth>
+			<Bioferrite>15</Bioferrite>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallDevilHeart</defName>
+		<label>install devil's heart</label>
+		<description>Install a devil's heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_DevilHeart</ThingDef>
+			<HediffDef>biosynth_DevilHeart</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing devil's heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_DevilHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_DevilHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_DevilHeart</addsHediff>
+	</RecipeDef>
+	
+</Defs>

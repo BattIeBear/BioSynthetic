@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BioSynth_Diablitech_ModName>BioSynthetic - Diablitech</BioSynth_Diablitech_ModName>
+	<BioSynth_Diablitech_TopWarning>Changing these options will require restarting the game to apply.</BioSynth_Diablitech_TopWarning>
+	<BioSynth_Diablitech_BottomWarning>Don't see the options you chose? Restart your game!</BioSynth_Diablitech_BottomWarning>
+
+	<BioSynth_Diablitech_LabelOne>These options determine how many diablitech implants you can have before experiencing synapse overload:</BioSynth_Diablitech_LabelOne>
+	<BioSynth_Diablitech_NumOfImplantsBeforePain>Implanted Diablitech: </BioSynth_Diablitech_NumOfImplantsBeforePain>
+	<BioSynth_Diablitech_NumOfImplantsBeforePainDesc>Number of diablitech implants that can be installed before experiencing pain; 1 means there will always be pain after installing an implant, 7 means there will never be any discomfort. Default is 3.\n\nThe pain grows as you have more installed diablitech above this number, so setting it high will mean you may not experience some levels of Synapse Overload.</BioSynth_Diablitech_NumOfImplantsBeforePainDesc>
+	<BioSynth_Diablitech_LabelTwo>These options give additional control over the chance of Luciferium addiction:</BioSynth_Diablitech_LabelTwo>
+	<BioSynth_Diablitech_DevilHeartLuciferiumAddiction>Devil's Heart Addiction on Damage</BioSynth_Diablitech_DevilHeartLuciferiumAddiction>
+	<BioSynth_Diablitech_DevilHeartLuciferiumAddictionDesc>When enabled, damage directly to the Heart will allow Luciferium to leak into the bloodstream, causing immediate and lifelong addiction.</BioSynth_Diablitech_DevilHeartLuciferiumAddictionDesc>
+	<BioSynth_Diablitech_LuciferiumAddictionChance>Luciferium Addiction Chance: </BioSynth_Diablitech_LuciferiumAddictionChance>
+	<BioSynth_Diablitech_LuciferiumAddictionChanceDesc>Chance that Luciferium addiction will occur when the Demon Core is damaged; 0% = never, 100% = always. Default is 100%.</BioSynth_Diablitech_LuciferiumAddictionChanceDesc>
+</LanguageData>
