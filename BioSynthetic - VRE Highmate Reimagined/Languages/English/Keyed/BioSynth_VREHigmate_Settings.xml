@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BioSynth_VREHigmate_ModName>BioSynthetic - VRE Highmate</BioSynth_VREHigmate_ModName>
+	<BioSynth_VREHigmate_TopWarning>Changing these options will require restarting the game to apply.</BioSynth_VREHigmate_TopWarning>
+	<BioSynth_VREHigmate_BottomWarning>Don't see the options you chose? Restart your game!</BioSynth_VREHigmate_BottomWarning>
+
+	<BioSynth_VREHigmate_Label1>The following choices allow highmates to generate with additional colors. Will not affect already generated pawns.</BioSynth_VREHigmate_Label1>
+	<BioSynth_VREHigmate_AllowExtraHairColors>Extra Hair Colors</BioSynth_VREHigmate_AllowExtraHairColors>
+	<BioSynth_VREHigmate_AllowExtraHairColorsDesc>Allows for ink black hair, in addition to the default white.</BioSynth_VREHigmate_AllowExtraHairColorsDesc>
+	<BioSynth_VREHigmate_AllowExtraSkinColors>Extra Skin Colors</BioSynth_VREHigmate_AllowExtraSkinColors>
+	<BioSynth_VREHigmate_AllowExtraSkinColorsDesc>Allows for light red and dark gray skin, in addition to the default white, blue, and purple.</BioSynth_VREHigmate_AllowExtraSkinColorsDesc>
+	<BioSynth_VREHigmate_AllowCustomSkinColors>Custom Skin Colors</BioSynth_VREHigmate_AllowCustomSkinColors>
+	<BioSynth_VREHigmate_AllowCustomSkinColorsDesc>Allows for a new, bubblegum pink skin.</BioSynth_VREHigmate_AllowCustomSkinColorsDesc>
+	
+	<BioSynth_VREHigmate_Label2>The following choices require you to have "Cat Genes" enabled in the Vanilla Races Expanded: Highmate mod.</BioSynth_VREHigmate_Label2>
+	<BioSynth_VREHigmate_CatEarsDefaultSprite>Use vanilla cat ear sprite</BioSynth_VREHigmate_CatEarsDefaultSprite>
+	<BioSynth_VREHigmate_CatEarsDefaultSpriteDesc>To have the cat ears use the vanilla cat ear sprite, instead of the one provided by VRE: Highmate, as the VRE one may look odd with certain skin/hair tones.</BioSynth_VREHigmate_CatEarsDefaultSpriteDesc>
+	<BioSynth_VREHigmate_CatEarsHairColor>Cat ears use hair color</BioSynth_VREHigmate_CatEarsHairColor>
+	<BioSynth_VREHigmate_CatEarsHairColorDesc>To have the cat ears use your pawn's hair color, instead of their skin color.</BioSynth_VREHigmate_CatEarsHairColorDesc>
+	<BioSynth_VREHigmate_HalfCatEars>50/50 Cat Ears</BioSynth_VREHigmate_HalfCatEars>
+	<BioSynth_VREHigmate_HalfCatEarsDesc>Only half of the highmates will generate with cat ears, the others will generate with the Human Ears gene.</BioSynth_VREHigmate_HalfCatEarsDesc>
+	<BioSynth_VREHigmate_HalfCatTails>50/50 Cat Tails</BioSynth_VREHigmate_HalfCatTails>
+	<BioSynth_VREHigmate_HalfCatTailsDesc>Only half of the highmates will generate with cat tails, the others will generate with a new Tailless gene.</BioSynth_VREHigmate_HalfCatTailsDesc>
+
+	<BioSynth_VREHigmate_Label3>The following are minor tweaks that will not affect gameplay, but may improve your immersion.</BioSynth_VREHigmate_Label3>
+	<BioSynth_VREHigmate_OptionalRewriteThoughts>Rewrite Thoughts</BioSynth_VREHigmate_OptionalRewriteThoughts>
+	<BioSynth_VREHigmate_OptionalRewriteThoughtsDesc>VRE adds a few thoughts related to the Perfect Body gene. Despite acting slightly different to the vanilla "Got some lovin'" thought, its description is the same. This adjusts that slightly to help the unique thoughts stand out.</BioSynth_VREHigmate_OptionalRewriteThoughtsDesc>
+	<BioSynth_VREHigmate_OptionalTrimHairSelection>Reduce Hair Selections</BioSynth_VREHigmate_OptionalTrimHairSelection>
+	<BioSynth_VREHigmate_OptionalTrimHairSelectionDesc>VRE adds the Beautiful Hair gene, which makes sure highmates generate with the new hairs provided by the mod. This option removes some of those hairs from the game.\n\nI'm gonna level with you, I just don't like some of the hairs added by VRE and this option turns them off. This is entirely based on my own personal preference.</BioSynth_VREHigmate_OptionalTrimHairSelectionDesc>
+
+	<BioSynth_VREHigmate_Label4>The following toggles add additional functionality to the highmate and remove the lowmate entirely. These choices will have affects on gameplay.</BioSynth_VREHigmate_Label4>
+	<BioSynth_VREHigmate_Label5>Leave all unchecked for a more "standard" VRE: Highmate experience.</BioSynth_VREHigmate_Label5>
+	<BioSynth_VREHigmate_Label6>Check only the second option (or third) for a more "vanilla" experience</BioSynth_VREHigmate_Label6>
+	<BioSynth_VREHigmate_Label7>Check both of the first two options (or the first and third) for a more "vanilla" experience with the added functionality of VRE: Highmate.</BioSynth_VREHigmate_Label7>
+	<BioSynth_VREHigmate_Label8>Do NOT check the third option unless you are starting a new game and have read the warning.</BioSynth_VREHigmate_Label8>
+	<BioSynth_VREHigmate_HighmateUsesAdditionalGenes>Extra Highmate Genes</BioSynth_VREHigmate_HighmateUsesAdditionalGenes>
+	<BioSynth_VREHigmate_HighmateUsesAdditionalGenesDesc>Allows new highmates to generate with the Very High Libido, Flirty, and Lovin' Dependency genes. Even with these extra genes, the highmate xenotype is balanced to a neutral metabolism.\n\nToggling this won't break saves, but will not apply to already generated pawns.</BioSynth_VREHigmate_HighmateUsesAdditionalGenesDesc>
+	<BioSynth_VREHigmate_SoftRemoveLowmate>Remove Lowmate: Safe</BioSynth_VREHigmate_SoftRemoveLowmate>
+	<BioSynth_VREHigmate_SoftRemoveLowmateDesc>Removes the spawn chance for lowmates from factions.\n\nToggling this won't break saves, but will not apply to already generated pawns.</BioSynth_VREHigmate_SoftRemoveLowmateDesc>
+	<BioSynth_VREHigmate_FullRemoveLowmate>Remove Lowmate: Full (MAY BREAK SAVES)</BioSynth_VREHigmate_FullRemoveLowmate>
+	<BioSynth_VREHigmate_FullRemoveLowmateDesc>This option completely removes the lowmate xenotype from all factions, as well as from the defs lists entirely. You won't even be able to create them when starting a new game. This is added for if you want to reduce the clutter when choosing a xenotype while starting a new game.\n\nWARNING:\nToggling this will absolutely break saves if a single lowmate has spawned in your world.\n\nIf you experience any errors while loading a game with this checked, quit to the main menu without saving and check the "Safe" option, or simply uncheck both.</BioSynth_VREHigmate_FullRemoveLowmateDesc>
+
+	<BioSynth_VREHigmate_Label9>Optional Toggles</BioSynth_VREHigmate_Label9>
+	<BioSynth_VREHigmate_AestheticShaperUsesPerfectBody>Aesthetic Shaper uses Perfect Body Graphic</BioSynth_VREHigmate_AestheticShaperUsesPerfectBody>
+	<BioSynth_VREHigmate_AestheticShaperUsesPerfectBodyDesc>To have the Aesthetic Shaper implant change the pawn's body to the same graphic as the Perfect Body gene. A partner who has some lovin' with a pawn that has Aesthetic Shaper will receive the "what a perfect body" thought.</BioSynth_VREHigmate_AestheticShaperUsesPerfectBodyDesc>
+	<BioSynth_VREHigmate_LoveEnhancerUsesPerfectBody>Love Enhancer Overwrites Perfect Body Lovin' Lock</BioSynth_VREHigmate_LoveEnhancerUsesPerfectBody>
+	<BioSynth_VREHigmate_LoveEnhancerUsesPerfectBodyDesc>In VRE, a pawn that has some lovin' with a pawn that has the Perfect Body gene will no longer gain the "Got some lovin'" thought from lovin' pawns without that gene.\n\nThis toggle allows that to be overwritten if the other pawn has a Love Enhancer installed.</BioSynth_VREHigmate_LoveEnhancerUsesPerfectBodyDesc>
+	<BioSynth_VREHigmate_LovinDependencyMakesBisexual>Lovin' Dependency Gives the Bisexual Trait</BioSynth_VREHigmate_LovinDependencyMakesBisexual>
+	<BioSynth_VREHigmate_LovinDependencyMakesBisexualDesc>A pawn with the Lovin' Dependency gene will always have the Bisexual trait.\n\nThis is a fictional world. These pawns have been made to need lovin' on a biological level. This option is mainly added for the survivability of lovin' dependent pawns.\n\nIf you have any issues with this option, please turn it off.</BioSynth_VREHigmate_LovinDependencyMakesBisexualDesc>
+	<BioSynth_VREHigmate_LovinDeficiencyDoesNotTriggerGiveUp>Lovin' Deficiency Does Not Cause Give Up</BioSynth_VREHigmate_LovinDeficiencyDoesNotTriggerGiveUp>
+	<BioSynth_VREHigmate_LovinDeficiencyDoesNotTriggerGiveUpDesc>A pawn with the Lovin' Dependency gene that is not fulfilled will, in VRE, leave the colony. This always seemed particularly harsh, and so this toggle will make them hide in their room instead. If they don't have a room, they will wander sadly.</BioSynth_VREHigmate_LovinDeficiencyDoesNotTriggerGiveUpDesc>
+	<BioSynth_VREHigmate_InitiateLovinRespectsSexuality>Initiate Lovin' Respects Sexuality</BioSynth_VREHigmate_InitiateLovinRespectsSexuality>
+	<BioSynth_VREHigmate_InitiateLovinRespectsSexualityDesc>The "Initiate Lovin'" ability is very powerful in that it can elevate the mood of the whole colony, cause breakups half a planet away, and even overwrite a pawn's fundamental sexual identity.\n\nThis option fixes that last part, by quickly checking the genders and traits of both pawns involved to make sure they would be compatible.</BioSynth_VREHigmate_InitiateLovinRespectsSexualityDesc>
+	<BioSynth_VREHigmate_InitiateLovinRespectsConsent>Initiate Lovin' Respects Consent</BioSynth_VREHigmate_InitiateLovinRespectsConsent>
+	<BioSynth_VREHigmate_InitiateLovinRespectsConsentDesc>Initiate Lovin' ability can be used on just about any pawn as long as they are of age and have at least 0 opinion of the highmate. The problem with this is that it can even be used on prisoners or slaves. If you find that to be problematic, turn this on.</BioSynth_VREHigmate_InitiateLovinRespectsConsentDesc>
+
+	
+</LanguageData>

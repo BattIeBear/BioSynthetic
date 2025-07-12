@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BioSynthetic: VRE Highmate Reimagined</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BioSynth.VREHighmate</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1826140</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>vanillaracesexpanded.highmate</packageId>
+			<displayName>Vanilla Races Expanded - Highmate</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2995385834</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>V1.6
+
+This mod takes the framework provided by the Vanilla Races Expanded: Highmate mod, and reimagines it. All options in this mod are toggleable, meaning it can be a minor graphic update or an entire highmate overhaul based on your preference.
+
+Depending on what options you select, it can add new skin/hair color options, prevent lovin' dependent pawns from leaving the colony and instead make them isolate when that need is not satisfied, let the Aesthetic Shaper function graphically as the Perfect Body gene, let the Love Enhancer bypass the restrictions of Perfect Body Gene, give the new genes added by VRE: Highmate to the highmate xenotype, remove the lowmate xenotype (in a safe, compatible way, or fully if you like to live dangerously, I'm not your mom), and have catgirl (or boy) highmates without every hghmate being a catgirl (or boy).
+
+Also adds an option for the Initiate Lovin' ability to only work on compatible pawns (e.g., a female pawn couldn't use the ability on a gay male pawn or a straight female pawn), and prevents highmates from forming psychic bonds with people they aren't in a relationship with.
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>vanillaracesexpanded.highmate</li>
+	</loadAfter>
+</ModMetaData>

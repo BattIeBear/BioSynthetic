@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BioSynth_VREHigmate_InitiatorNotGay>{0} cannot initiate lovin’ with {1} as they are the same gender and {0} is straight.</BioSynth_VREHigmate_InitiatorNotGay>
+	<BioSynth_VREHigmate_RecipientNotGay>{0} cannot initiate lovin’ with {1} as they are the same gender and {1} is straight.</BioSynth_VREHigmate_RecipientNotGay>
+	<BioSynth_VREHigmate_InitiatorIsGay>{0} cannot initiate lovin’ with {1} as they are opposite genders and {0} is gay.</BioSynth_VREHigmate_InitiatorIsGay>
+	<BioSynth_VREHigmate_RecipientIsGay>{0} cannot initiate lovin’ with {1} as they are opposite genders and {1} is gay.</BioSynth_VREHigmate_RecipientIsGay>
+	<BioSynth_VREHigmate_NonConsent>{0} cannot initiate lovin’ with {1} as {1} is a captive of {0}'s colony.</BioSynth_VREHigmate_NonConsent>
+	
+</LanguageData>

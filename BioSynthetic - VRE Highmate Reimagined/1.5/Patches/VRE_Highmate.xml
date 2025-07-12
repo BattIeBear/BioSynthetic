@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!--Applies sprite options to Cat Ears gene-->
+	<Operation Class="BioSynth_VRE_Highmate.CatEarSpriteOptions">
+
+		<VanillaSprite Class="PatchOperationReplace">
+			<xpath>/Defs/GeneDef[defName="VRE_FelineEars"]/renderNodeProperties/li/texPath</xpath>
+			<value>
+				<texPath>Things/Pawn/Humanlike/HeadAttachments/CatEars/CatEars</texPath>
+			</value>
+		</VanillaSprite>
+
+	</Operation>
+
+	<!--Applies color options to Cat Ears gene-->
+	<Operation Class="BioSynth_VRE_Highmate.CatEarColorOptions">
+
+		<HairColor Class="PatchOperationReplace">
+			<xpath>/Defs/GeneDef[defName="VRE_FelineEars"]/renderNodeProperties/li/colorType</xpath>
+			<value>
+				<colorType>Hair</colorType>
+			</value>
+		</HairColor>
+
+	</Operation>
+
+	<!--Applies Cat Ears gene to only half of the generated Highmates by adding the Human Ears gene-->
+	<Operation Class="BioSynth_VRE_Highmate.CatEarGenerationOptions">
+
+		<HalfOnly Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>Ears_Human</li>
+			</value>
+		</HalfOnly>
+
+	</Operation>
+
+	<!--Applies Cat Tail gene to only half of the generated Highmates by adding the Tailless gene-->
+	<Operation Class="BioSynth_VRE_Highmate.CatTailGenerationOptions">
+
+		<HalfOnly Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>BattIeBear.Tailless</li>
+			</value>
+		</HalfOnly>
+
+	</Operation>
+
+	<!--Adds Bisexual Trait to Lovin' Dependancy-->
+	<Operation Class="BioSynth_VRE_Highmate.LovinDependencyBisexualOptions">
+
+		<Bisexual Class="PatchOperationAdd">
+			<xpath>/Defs/GeneDef[defName="VRE_LovinDependency"]</xpath>
+			<value>
+				<forcedTraits>
+					<li>
+						<def>Bisexual</def>
+					</li>
+				</forcedTraits>
+			</value>
+		</Bisexual>
+
+	</Operation>
+
+	<!--Modifies the Thoughts associated with VRE-->
+	<Operation Class="BioSynth_VRE_Highmate.RewriteThoughtsOptions">
+
+		<RewriteThoughts Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_WhatAPerfectBody"]/stages/li/label</xpath>
+			<value>
+				<label>what a perfect body...</label>
+			</value>
+		</RewriteThoughts>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.RewriteThoughtsOptions">
+
+		<RewriteThoughts Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_GotSomeLovin"]/stages/li/label</xpath>
+			<value>
+				<label>got some incredible lovin'.</label>
+			</value>
+		</RewriteThoughts>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.RewriteThoughtsOptions">
+
+		<RewriteThoughts Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_GotSomeLovin"]/stages/li/description</xpath>
+			<value>
+				<description>Normal lovin' can't compete with that!</description>
+			</value>
+		</RewriteThoughts>
+
+	</Operation>
+
+
+	<!--Removes specific hairs from being chosen by Highmate Hair gene-->
+	<Operation Class="BioSynth_VRE_Highmate.RemoveHairOptions">
+
+		<RemoveHair Class="PatchOperationRemove">
+			<xpath>/Defs/HairDef[defName="VRE_HighmateHairElfie"]/styleTags/li[text()="VRE_HighmateHair"]</xpath>
+		</RemoveHair>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.RemoveHairOptions">
+
+		<RemoveHair Class="PatchOperationRemove">
+			<xpath>/Defs/HairDef[defName="VRE_HighmateHairMia"]/styleTags/li[text()="VRE_HighmateHair"]</xpath>
+		</RemoveHair>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.RemoveHairOptions">
+
+		<RemoveHair Class="PatchOperationRemove">
+			<xpath>/Defs/HairDef[defName="VRE_HighmateHairSkylar"]/styleTags/li[text()="VRE_HighmateHair"]</xpath>
+		</RemoveHair>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.RemoveHairOptions">
+
+		<RemoveHair Class="PatchOperationRemove">
+			<xpath>/Defs/HairDef[defName="VRE_HighmateHairSweetie"]/styleTags/li[text()="VRE_HighmateHair"]</xpath>
+		</RemoveHair>
+
+	</Operation>
+
+	<!--Removes Lowmates from spawn chance-->
+	<Operation Class="BioSynth_VRE_Highmate.RemoveLowmateOptions">
+
+		<Soft Class="PatchOperationRemove">
+			<xpath>/Defs/FactionDef[defName="PirateWaster"]/xenotypeSet/xenotypeChances/VRE_Lowmate</xpath>
+		</Soft>
+
+		<Full Class="PatchOperationRemove">
+			<xpath>/Defs/FactionDef[defName="PirateWaster"]/xenotypeSet/xenotypeChances/VRE_Lowmate</xpath>
+		</Full>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.RemoveLowmateOptions">
+
+		<Soft Class="PatchOperationRemove">
+			<xpath>/Defs/FactionDef[defName="Pirate"]/xenotypeSet/xenotypeChances/VRE_Lowmate</xpath>
+		</Soft>
+
+		<Full Class="PatchOperationRemove">
+			<xpath>/Defs/FactionDef[defName="Pirate"]/xenotypeSet/xenotypeChances/VRE_Lowmate</xpath>
+		</Full>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.RemoveLowmateOptions">
+
+		<Soft Class="PatchOperationRemove">
+			<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances/VRE_Lowmate</xpath>
+		</Soft>
+
+		<Full Class="PatchOperationRemove">
+			<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances/VRE_Lowmate</xpath>
+		</Full>
+
+	</Operation>
+
+	<!--Removes Lowmates FULLY-->
+	<Operation Class="BioSynth_VRE_Highmate.RemoveLowmateOptions">
+
+		<Full Class="PatchOperationRemove">
+			<xpath>Defs/XenotypeDef[defName="VRE_Lowmate"]</xpath>
+		</Full>
+
+	</Operation>
+
+	<!--Thes options are added for when Lovin' Deficiency does not cause a give up-->
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/NeedDef[defName="VRE_Lovin"]/description</xpath>
+			<value>
+				<description>People with lovin' dependency have a strong desire to partake in lovin' on regular basis. If this need for attention isn't satisfied, the person will become very unhappy and may decide to isolate for a time.</description>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName="VRE_LovinDependencyHediff"]/description</xpath>
+			<value>
+				<description>This person has a genetically-induced biochemical dependency on lovin'. They will need to partake in lovin’ on a regular basis to be content. After 5 days without lovin’, carriers will suffer from lovin’ deficiency. After 30 days without lovin’, they will isolate for a time. Only takes effect after age: 16.</description>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/GeneDef[defName="VRE_LovinDependency"]/description</xpath>
+			<value>
+				<description>Carriers of this gene need to partake in lovin’ on a regular basis to survive. After 5 days without lovin’, carriers will suffer from lovin’ deficiency. After 30 days without lovin’, they will isolate for a time.</description>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_LovinNeedThoughts"]/stages/li/description[text()="I crave lovin’. Give me some of it!"]</xpath>
+			<value>
+				<description>I'm feeling a little dejected…</description>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_LovinNeedThoughts"]/stages/li/description[text()="If I don’t get any lovin’ right here, right now…"]</xpath>
+			<value>
+				<description>Why is no one paying attention to me?</description>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_LovinNeedThoughts"]/stages/li/label[text()="needs lovin'"]</xpath>
+			<value>
+				<label>wants lovin'</label>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_LovinNeedThoughts"]/stages/li/label[text()="demands lovin'"]</xpath>
+			<value>
+				<label>needs lovin'</label>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Highmate.LovinDeficiencyDoesNotTriggerGiveUpOptions">
+
+		<HideAway Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="VRE_LovinNeedThoughts"]/stages/li/label[text()="demands lovin' (leaving)"]</xpath>
+			<value>
+				<label>needs lovin' (isolating)</label>
+			</value>
+		</HideAway>
+
+	</Operation>
+
+</Patch>

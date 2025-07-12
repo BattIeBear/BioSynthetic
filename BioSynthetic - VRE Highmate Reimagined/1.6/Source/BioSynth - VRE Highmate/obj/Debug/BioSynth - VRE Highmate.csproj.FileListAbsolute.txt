@@ -1,0 +1,16 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate\Assemblies\BioSynth - VRE Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate Reimagined\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate Reimagined\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate Reimagined\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Highmate Reimagined\Assemblies\BioSynth - VRE Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.5\Assemblies\BioSynth - VRE Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.5\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.5\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.5\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.6\Assemblies\BioSynth - VRE Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.6\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.6\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.6\Source\BioSynth - VRE Highmate\obj\Debug\BioSynth - VRE Highmate.dll
