@@ -11,7 +11,11 @@ namespace BioSynth_Diablitech
     {
         public static bool Postfix(bool ___result, ref RecipeDef recipe, ref Pawn patient)
         {
-            if (___result == false)
+            if (recipe == null || patient == null)
+            {
+                return ___result;
+            }
+            if (recipe.addsHediff == null || recipe.removesHediff == null)
             {
                 return ___result;
             }
