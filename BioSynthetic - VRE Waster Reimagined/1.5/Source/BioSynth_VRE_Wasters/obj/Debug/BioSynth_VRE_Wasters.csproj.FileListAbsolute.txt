@@ -6,3 +6,7 @@ C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Waster Reimagined\1.5\Ass
 C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Waster Reimagined\1.5\Source\BioSynth_VRE_Wasters\obj\Debug\BioSynth_VRE_Wasters.csproj.AssemblyReference.cache
 C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Waster Reimagined\1.5\Source\BioSynth_VRE_Wasters\obj\Debug\BioSynth_VRE_Wasters.csproj.CoreCompileInputs.cache
 C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Waster Reimagined\1.5\Source\BioSynth_VRE_Wasters\obj\Debug\BioSynth_VRE_Wasters.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Waster Reimagined\1.5\Assemblies\BioSynth_VRE_Wasters.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Waster Reimagined\1.5\Source\BioSynth_VRE_Wasters\obj\Debug\BioSynth_VRE_Wasters.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Waster Reimagined\1.5\Source\BioSynth_VRE_Wasters\obj\Debug\BioSynth_VRE_Wasters.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Waster Reimagined\1.5\Source\BioSynth_VRE_Wasters\obj\Debug\BioSynth_VRE_Wasters.dll

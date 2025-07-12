@@ -19,21 +19,21 @@ namespace BioSynth_VRE_Wasters
         {
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
-            listingStandard.Label("BioSynth_Wasters_TopWarning".Translate());
+            listingStandard.Label("BioSynth_VREWasters_TopWarning".Translate());
 
             listingStandard.GapLine();
 
-            listingStandard.Label("BioSynth_Wasters_Label1".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_Wasters_AddNewHairColors".Translate(), ref BioSynthVREWasterSettings.AddNewHairColors, "BioSynth_Wasters_AddNewHairColorsDesc".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_Wasters_AddNewSkinColors".Translate(), ref BioSynthVREWasterSettings.AddNewSkinColors, "BioSynth_Wasters_AddNewSkinColorsDesc".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_Wasters_DisableGauntBody".Translate(), ref BioSynthVREWasterSettings.DisableGauntBody, "BioSynth_Wasters_DisableGauntBodyDesc".Translate());
+            listingStandard.Label("BioSynth_VREWasters_Label1".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREWasters_AddNewHairColors".Translate(), ref BioSynthVREWasterSettings.AddNewHairColors, "BioSynth_VREWasters_AddNewHairColorsDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREWasters_AddNewSkinColors".Translate(), ref BioSynthVREWasterSettings.AddNewSkinColors, "BioSynth_VREWasters_AddNewSkinColorsDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREWasters_DisableGauntBody".Translate(), ref BioSynthVREWasterSettings.DisableGauntBody, "BioSynth_VREWasters_DisableGauntBodyDesc".Translate());
 
             listingStandard.GapLine();
 
-            listingStandard.Label("BioSynth_Wasters_Label2".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_Wasters_KeepInstability".Translate(), ref BioSynthVREWasterSettings.KeepInstability, "BioSynth_Wasters_KeepInstabilityDesc".Translate());
+            listingStandard.Label("BioSynth_VREWasters_Label2".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREWasters_KeepInstability".Translate(), ref BioSynthVREWasterSettings.KeepInstability, "BioSynth_VREWasters_KeepInstabilityDesc".Translate());
 
-            listingStandard.Label("BioSynth_Wasters_BottomWarning".Translate());
+            listingStandard.Label("BioSynth_VREWasters_BottomWarning".Translate());
             listingStandard.End();
             base.DoSettingsWindowContents(inRect);
         }
@@ -42,7 +42,7 @@ namespace BioSynth_VRE_Wasters
         /// Using .Translate() is optional, but does allow for localization.
         public override string SettingsCategory()
         {
-            return "BioSynth_Wasters_ModName".Translate();
+            return "BioSynth_VREWasters_ModName".Translate();
         }
     }
 }
