@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="VRE_Instability_Nominal"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="VRE_Instability_Progressive"]</xpath>
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Wasters.GauntBodyOptions">
+
+		<DisableGaunt Class="PatchOperationRemove">
+			<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="VRE_GauntBody"]</xpath>
+		</DisableGaunt>
+
+	</Operation>
+
+</Patch>
