@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/XenotypeDef[defName="Hussar"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
+		<value>
+			<li>BattIeBear_BattleReady_Randomizer</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
+		<value>
+			<li>BattIeBear_BattleReady_Randomizer</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GeneDef[defName="VREH_Toughness"]/displayCategory</xpath>
+		<value>
+			<displayCategory>BattIeBear_BattleReady</displayCategory>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GeneDef[defName="VREH_Toughness"]/biostatMet</xpath>
+		<value>
+			<biostatMet>-2</biostatMet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GeneDef[defName="VREH_Toughness"]/displayOrderInCategory</xpath>
+		<value>
+			<displayOrderInCategory>5</displayOrderInCategory>
+		</value>
+	</Operation>
+</Patch>

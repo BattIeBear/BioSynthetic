@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<xenotypeChances>
+				<VREH_Uhlan>0.01</VREH_Uhlan>
+				<Impid>.99</Impid>
+			</xenotypeChances>
+		</value>
+	</Operation>
+
+</Patch>

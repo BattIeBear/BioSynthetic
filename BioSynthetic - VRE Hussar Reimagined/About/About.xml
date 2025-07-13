@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BioSynthetic: VRE Hussar Reimagined</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BioSynth.VREHussar</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+V1.6
+
+A mod that reimagines and simplifies Vanilla Races Expanded - Hussar. The main focus of the mod is to address the weapon aptitude genes, as these can make certain Hussars less viable than others. This mod instead replaces them with the new Battle Ready gene, which will guarantee they spawn with one of several positive traits (Brawler, Careful Shooter, Iron Willed, Tough, or Trigger Happy), though the intense genetic conditioning can also cause a drawback (Greedy, Neurotic, Pyromaniac, or Psychopath).
+
+The chance for a negative trait can be modified or disabled completely, and there is a toggle to turn off the Pyromaniac drawback for those who never take a pawn that has it. The Battle Ready mod is visible during character creation, so you can see which traits your Hussar will start with and know their metabolic efficiency before you land (just like with all other pawns).
+
+Finally, the mod adds a slight chance for Uhlans to spawn during impid raids, and gives them several renaming options for cleaner integration.
+
+This mod comes with several toggleable options, meaning you can have everything mentioned above or turn it all off one-by-one!
+
+Found an issue? Leave a comment!
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1826140</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>vanillaracesexpanded.hussar</packageId>
+			<displayName>Vanilla Races Expanded - Hussar</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>vanillaracesexpanded.hussar</li>
+	</loadAfter>
+</ModMetaData>

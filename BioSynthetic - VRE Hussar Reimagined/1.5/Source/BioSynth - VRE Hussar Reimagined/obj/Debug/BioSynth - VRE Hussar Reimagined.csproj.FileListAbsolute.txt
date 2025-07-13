@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\Assemblies\BioSynth - VRE Hussar Reimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\Source\BioSynth - VRE Hussar Reimagined\obj\Debug\BioSynth - VRE Hussar Reimagined.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\Source\BioSynth - VRE Hussar Reimagined\obj\Debug\BioSynth - VRE Hussar Reimagined.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\Source\BioSynth - VRE Hussar Reimagined\obj\Debug\BioSynth - VRE Hussar Reimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\1.5\Assemblies\BioSynth - VRE Hussar Reimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\1.5\Source\BioSynth - VRE Hussar Reimagined\obj\Debug\BioSynth - VRE Hussar Reimagined.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\1.5\Source\BioSynth - VRE Hussar Reimagined\obj\Debug\BioSynth - VRE Hussar Reimagined.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - VRE Hussar Reimagined\1.5\Source\BioSynth - VRE Hussar Reimagined\obj\Debug\BioSynth - VRE Hussar Reimagined.dll

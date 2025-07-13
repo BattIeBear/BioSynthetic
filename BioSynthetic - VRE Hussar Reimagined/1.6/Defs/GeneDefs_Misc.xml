@@ -1,0 +1,310 @@
+<?xml version="1.0" ?>
+<Defs>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleReady_Randomizer</defName>
+		<label>battle ready</label>
+		<geneClass>BioSynth_VREHussarReimagined.Gene_BattleReadyRandomizer</geneClass>
+		<labelShortAdj>battle ready</labelShortAdj>
+		<description>Carriers of this gene have a genetic disposition towards combat. While each go about it in their own manner, violence is second nature to these pawns.\n\nThis gene will be randomly swapped out for a battle-ready gene. If drawbacks are selected in the mod menu, then this gene may also generate a drawback.</description>
+		<iconPath>UI/GeneIcons/Gene_Dutiful</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleReady_Brawler</defName>
+		<label>brawler</label>
+		<description>Carriers of this gene have strengthened arms and thick fingers reinforced by dense bones. While they find ranged weapons to be unwieldy, boxing is second nature to them.</description>
+		<iconPath>UI/GeneIcons/Gene_Brawler</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<exclusionTags>
+			<li>BattleReady</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>Brawler</def>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>box</symbol>
+				</li>
+				<li>
+					<symbol>punch</symbol>
+				</li>
+				<li>
+					<symbol>heavy</symbol>
+				</li>
+				<li>
+					<symbol>strong</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleReady_CarefulShooter</defName>
+		<label>careful shooter</label>
+		<description>Carriers of this gene have a preternatural aptitude with ranged weapons. By instinct alone, their breathing and heart rate slow when they aim down sights or pull back a bow, and their patience and attention to detail stand out even in the thick of combat.</description>
+		<iconPath>UI/GeneIcons/Gene_CarefulShooter</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<exclusionTags>
+			<li>BattleReady</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>breath</symbol>
+				</li>
+				<li>
+					<symbol>calm</symbol>
+				</li>
+				<li>
+					<symbol>care</symbol>
+				</li>
+				<li>
+					<symbol>aim</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleReady_TriggerHappy</defName>
+		<label>trigger happy</label>
+		<description>Carriers of this gene know, in their hearts, that quantity has a quality all its own. This age old adage applies doubly so to shots taken in the heat of combat, and these pawns are uniquely adept at spitting lead.</description>
+		<iconPath>UI/GeneIcons/Gene_TriggerHappy</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<exclusionTags>
+			<li>BattleReady</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>-1</degree>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>rash</symbol>
+				</li>
+				<li>
+					<symbol>wild</symbol>
+				</li>
+				<li>
+					<symbol>haste</symbol>
+				</li>
+				<li>
+					<symbol>shoot</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleReady_IronWilled</defName>
+		<label>iron willed</label>
+		<description>Carriers of this gene have no problem soldiering on when others would have given up, and seem almost unaffected by the weight of stress and uncertainty.</description>
+		<iconPath>UI/GeneIcons/Gene_IronWilled</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<exclusionTags>
+			<li>BattleReady</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>Nerves</def>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>will</symbol>
+				</li>
+				<li>
+					<symbol>focus</symbol>
+				</li>
+				<li>
+					<symbol>sure</symbol>
+				</li>
+				<li>
+					<symbol>stable</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleDrawback_Pyromaniac</defName>
+		<label>drawback: pyromaniac</label>
+		<description>Carriers of this gene have a predisposition towards fire, specifically is beauty and the destruction it causes. While others may find this off-putting, destruction is this pawn's nature.</description>
+		<iconPath>UI/GeneIcons/Gene_Pyromaniac</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<exclusionTags>
+			<li>BattleReadyDrawback</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>Pyromaniac</def>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>fire</symbol>
+				</li>
+				<li>
+					<symbol>flame</symbol>
+				</li>
+				<li>
+					<symbol>burn</symbol>
+				</li>
+				<li>
+					<symbol>ash</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleDrawback_Neurotic</defName>
+		<label>drawback: neurotic</label>
+		<description>Carriers of this gene have a predisposition towards structure and order. This makes them great at following orders and finishing tasks, but can become overwhelmed by the responsibility others place on them.</description>
+		<iconPath>UI/GeneIcons/Gene_Neurotic</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<exclusionTags>
+			<li>BattleReadyDrawback</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>Neurotic</def>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>nerve</symbol>
+				</li>
+				<li>
+					<symbol>tense</symbol>
+				</li>
+				<li>
+					<symbol>edge</symbol>
+				</li>
+				<li>
+					<symbol>focus</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleDrawback_Greedy</defName>
+		<label>drawback: greedy</label>
+		<description>Carriers of this gene know their worth, and will take personal insult if not given a room that fits the standards they hold themselves to.</description>
+		<iconPath>UI/GeneIcons/Gene_Greedy</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<exclusionTags>
+			<li>BattleReadyDrawback</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>Greedy</def>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>greed</symbol>
+				</li>
+				<li>
+					<symbol>crave</symbol>
+				</li>
+				<li>
+					<symbol>want</symbol>
+				</li>
+				<li>
+					<symbol>worthy</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>BattIeBear_BattleDrawback_Psychopath</defName>
+		<label>drawback: psychopath</label>
+		<description>Carriers of this gene have no empathy whatsoever. Excellent in a made-to-order super-soldier; less so in a person reintegrating into society.</description>
+		<iconPath>UI/GeneIcons/Gene_Psychopath</iconPath>
+		<displayCategory>BattIeBear_BattleReady</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<exclusionTags>
+			<li>BattleReadyDrawback</li>
+		</exclusionTags>
+		<forcedTraits>
+			<li>
+				<def>Psychopath</def>
+			</li>
+		</forcedTraits>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>psycho</symbol>
+				</li>
+				<li>
+					<symbol>cruel</symbol>
+				</li>
+				<li>
+					<symbol>mean</symbol>
+				</li>
+				<li>
+					<symbol>brute</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+</Defs>

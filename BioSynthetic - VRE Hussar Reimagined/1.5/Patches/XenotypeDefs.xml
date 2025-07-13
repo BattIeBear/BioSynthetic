@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="BioSynth_VREHussarReimagined.UhlanNameOptions">
+
+		<Demon Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/label</xpath>
+					<value>
+						<label>demon</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/description</xpath>
+					<value>
+						<description>Demons are a side-development from captured hussars, turned by certain elements to become a counter to the military-developed supersoldier programs. Their genetic dependence on luciferium is both a deterrent against capturing and an improvement to long-term usefulness.\n\nAppropriately named for their permanently flushed skin and intense bloodthirst, demons are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.\n\nExtremely specialized and on a permanent hair-trigger, there has been much speculation that their development was sponsored by megacorporations as part of the latest arms race. No substantial evidence has been presented to support these claims.</description>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/descriptionShort</xpath>
+					<value>
+						<descriptionShort>Demons are engineered super-soldiers who fight aggressively and without emotion. They heal extremely fast, glide through obstacles using their small wings, freely ingest military drugs and rely on luciferium to keep their bodies functioning.</descriptionShort>
+					</value>
+				</li>
+			</operations>
+		</Demon>
+
+		<Devil Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/label</xpath>
+					<value>
+						<label>devil</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/description</xpath>
+					<value>
+						<description>Devils are a side-development from captured hussars, turned by certain elements to become a counter to the military-developed supersoldier programs. Their genetic dependence on luciferium is both a deterrent against capturing and an improvement to long-term usefulness.\n\nAppropriately named for their permanently flushed skin and intense bloodthirst, devils are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.\n\nExtremely specialized and on a permanent hair-trigger, there has been much speculation that their development was sponsored by megacorporations as part of the latest arms race. No substantial evidence has been presented to support these claims.</description>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/descriptionShort</xpath>
+					<value>
+						<descriptionShort>Devils are engineered super-soldiers who fight aggressively and without emotion. They heal extremely fast, glide through obstacles using their small wings, freely ingest military drugs and rely on luciferium to keep their bodies functioning.</descriptionShort>
+					</value>
+				</li>
+			</operations>
+		</Devil>
+
+		<Fiend Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/label</xpath>
+					<value>
+						<label>fiend</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/description</xpath>
+					<value>
+						<description>Fiends are a side-development from captured hussars, turned by certain elements to become a counter to the military-developed supersoldier programs. Their genetic dependence on luciferium is both a deterrent against capturing and an improvement to long-term usefulness.\n\nAppropriately named for their permanently flushed skin and intense bloodthirst, fiends are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.\n\nExtremely specialized and on a permanent hair-trigger, there has been much speculation that their development was sponsored by megacorporations as part of the latest arms race. No substantial evidence has been presented to support these claims.</description>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/descriptionShort</xpath>
+					<value>
+						<descriptionShort>Fiends are engineered super-soldiers who fight aggressively and without emotion. They heal extremely fast, glide through obstacles using their small wings, freely ingest military drugs and rely on luciferium to keep their bodies functioning.</descriptionShort>
+					</value>
+				</li>
+			</operations>
+		</Fiend>
+
+		<Bloodletter Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/label</xpath>
+					<value>
+						<label>bloodletter</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/description</xpath>
+					<value>
+						<description>Bloodletters are a side-development from captured hussars, turned by certain elements to become a counter to the military-developed supersoldier programs. Their genetic dependence on luciferium is both a deterrent against capturing and an improvement to long-term usefulness.\n\nAppropriately named for their permanently flushed skin and intense bloodthirst, bloodletters are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.\n\nExtremely specialized and on a permanent hair-trigger, there has been much speculation that their development was sponsored by megacorporations as part of the latest arms race. No substantial evidence has been presented to support these claims.</description>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/descriptionShort</xpath>
+					<value>
+						<descriptionShort>Bloodletters are engineered super-soldiers who fight aggressively and without emotion. They heal extremely fast, glide through obstacles using their small wings, freely ingest military drugs and rely on luciferium to keep their bodies functioning.</descriptionShort>
+					</value>
+				</li>
+			</operations>
+		</Bloodletter>
+
+		<Bloodthirster Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/label</xpath>
+					<value>
+						<label>bloodthirster</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/description</xpath>
+					<value>
+						<description>Bloodthirsters are a side-development from captured hussars, turned by certain elements to become a counter to the military-developed supersoldier programs. Their genetic dependence on luciferium is both a deterrent against capturing and an improvement to long-term usefulness.\n\nAppropriately named for their permanently flushed skin and intense love of violence, bloodthirsters are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.\n\nExtremely specialized and on a permanent hair-trigger, there has been much speculation that their development was sponsored by megacorporations as part of the latest arms race. No substantial evidence has been presented to support these claims.</description>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/descriptionShort</xpath>
+					<value>
+						<descriptionShort>Bloodthirsters are engineered super-soldiers who fight aggressively and without emotion. They heal extremely fast, glide through obstacles using their small wings, freely ingest military drugs and rely on luciferium to keep their bodies functioning.</descriptionShort>
+					</value>
+				</li>
+			</operations>
+		</Bloodthirster>
+
+	</Operation>
+	
+	<Operation Class="BioSynth_VREHussarReimagined.UhlanHornOptions">
+
+		<Horns Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes</xpath>
+			<value>
+				<li>Headbone_MiniHorns</li>
+			</value>
+		</Horns>
+
+	</Operation>
+	
+</Patch>
