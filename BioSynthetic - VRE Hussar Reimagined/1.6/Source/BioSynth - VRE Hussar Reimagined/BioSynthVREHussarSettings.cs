@@ -26,6 +26,7 @@ namespace BioSynth_VREHussarReimagined
         {
             Scribe_Values.Look(ref MinimizeOverlap, "MinimizeOverlap");
             Scribe_Values.Look(ref EnableDrawbacks, "EnableDrawbacks");
+            Scribe_Values.Look(ref DrawbackChance, "DrawbackChance");
             Scribe_Values.Look(ref DisablePyromania, "DisablePyromania");
             Scribe_Values.Look(ref Demon, "Demon");
             Scribe_Values.Look(ref Devil, "Devil");
