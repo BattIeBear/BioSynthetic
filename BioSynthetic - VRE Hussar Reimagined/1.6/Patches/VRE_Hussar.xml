@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/XenotypeDef[defName="Hussar"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
-		<value>
-			<li>BattIeBear_BattleReady_Randomizer</li>
-		</value>
-	</Operation>
+	<Operation Class="BioSynth_VREHussarReimagined.AllowBattleReady">
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
-		<value>
-			<li>BattIeBear_BattleReady_Randomizer</li>
-		</value>
+		<BattleReady Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="Hussar"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
+					<value>
+						<li>BattIeBear_BattleReady_Randomizer</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
+					<value>
+						<li>BattIeBear_BattleReady_Randomizer</li>
+					</value>
+				</li>
+			</operations>
+		</BattleReady>
+
+
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">

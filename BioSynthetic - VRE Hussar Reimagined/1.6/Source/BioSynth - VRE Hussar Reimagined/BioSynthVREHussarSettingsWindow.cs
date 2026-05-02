@@ -24,6 +24,7 @@ namespace BioSynth_VREHussarReimagined
             listingStandard.GapLine();
 
             listingStandard.Label("BioSynth_VREHussar_Label1".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_AllowBattleReady".Translate(), ref BioSynthVREHussarSettings.BattleReady, "BioSynth_VREHussar_AllowBattleReadyDesc".Translate());
             listingStandard.CheckboxLabeled("BioSynth_VREHussar_MinimizeOverlap".Translate(), ref BioSynthVREHussarSettings.MinimizeOverlap, "BioSynth_VREHussar_MinimizeOverlapDesc".Translate());
 
             listingStandard.GapLine();
@@ -81,6 +82,7 @@ namespace BioSynth_VREHussarReimagined
 
             listingStandard.Label("BioSynth_VREHussar_Label4".Translate());
             listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalHorns".Translate(), ref BioSynthVREHussarSettings.Horns, "BioSynth_VREHussar_OptionalHornsDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalImpid".Translate(), ref BioSynthVREHussarSettings.Impid, "BioSynth_VREHussar_OptionalImpidDesc".Translate());
 
             listingStandard.Gap();
 

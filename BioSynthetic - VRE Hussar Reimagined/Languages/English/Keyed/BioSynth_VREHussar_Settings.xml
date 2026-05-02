@@ -6,6 +6,8 @@
 	<BioSynth_VREHussar_BottomWarning>Don't see the options you chose? Restart your game!</BioSynth_VREHussar_BottomWarning>
 
 	<BioSynth_VREHussar_Label1>Trait Options</BioSynth_VREHussar_Label1>
+	<BioSynth_VREHussar_AllowBattleReady>Allow Battle Ready</BioSynth_VREHussar_AllowBattleReady>
+	<BioSynth_VREHussar_AllowBattleReadyDesc>Turning this off will stop new hussars and uhlans from spawning with the Battle Ready gene. Already generated pawns will not be changed.</BioSynth_VREHussar_AllowBattleReadyDesc>
 	<BioSynth_VREHussar_MinimizeOverlap>Minimize Overlap</BioSynth_VREHussar_MinimizeOverlap>
 	<BioSynth_VREHussar_MinimizeOverlapDesc>Selecting this will attempt to minimize the overlap of the Battle Ready gene. This will prevent pawns with the Brawler trait from getting genes that would give them Trigger Happy or Careful Shooter, and vice versa.\n\nEnabling this option will make pawns with this gene slightly more optimized, so disable if you find them OP.</BioSynth_VREHussar_MinimizeOverlapDesc>
 	
@@ -29,9 +31,11 @@
 	<BioSynth_VREHussar_Bloodthirster>Bloodthirster</BioSynth_VREHussar_Bloodthirster>
 	<BioSynth_VREHussar_BloodthirsterDesc>Replaces the name 'Uhlan' with 'Bloodthirster'.</BioSynth_VREHussar_BloodthirsterDesc>
 
-	<BioSynth_VREHussar_Label4>Uhlan Extra Genes</BioSynth_VREHussar_Label4>
+	<BioSynth_VREHussar_Label4>Uhlan Extra Options</BioSynth_VREHussar_Label4>
 	<BioSynth_VREHussar_OptionalHorns>Has Horns</BioSynth_VREHussar_OptionalHorns>
 	<BioSynth_VREHussar_OptionalHornsDesc>This will give uhlans the Mini Horns gene, reinforcing their fiendish appearance.</BioSynth_VREHussar_OptionalHornsDesc>
-	
+	<BioSynth_VREHussar_OptionalImpid>Impid Raiders</BioSynth_VREHussar_OptionalImpid>
+	<BioSynth_VREHussar_OptionalImpidDesc>This will allow uhlans a very small chance to spawn in impid raids, their natural strength allowing them to quickly rise through the ranks of the frail tribals.</BioSynth_VREHussar_OptionalImpidDesc>
+
 
 </LanguageData>

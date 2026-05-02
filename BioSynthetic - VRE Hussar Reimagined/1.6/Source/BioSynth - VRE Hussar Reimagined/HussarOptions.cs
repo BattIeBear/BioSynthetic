@@ -3,6 +3,19 @@ using Verse;
 
 namespace BioSynth_VREHussarReimagined
 {
+    public class AllowBattleReady : PatchOperation
+    {
+        private PatchOperation BattleReady;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            if (BioSynthVREHussarSettings.BattleReady)
+            {
+                BattleReady.Apply(xml);
+            }
+            return true;
+        }
+    }
     public class UhlanNameOptions : PatchOperation
     {
         private PatchOperation Demon;
@@ -45,6 +58,19 @@ namespace BioSynth_VREHussarReimagined
             if (BioSynthVREHussarSettings.Horns)
             {
                 Horns.Apply(xml);
+            }
+            return true;
+        }
+    }
+    public class UhlanImpidOptions : PatchOperation
+    {
+        private PatchOperation Impid;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            if (BioSynthVREHussarSettings.Impid)
+            {
+                Impid.Apply(xml);
             }
             return true;
         }
