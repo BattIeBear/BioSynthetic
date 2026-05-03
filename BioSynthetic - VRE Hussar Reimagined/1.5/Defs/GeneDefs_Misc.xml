@@ -165,7 +165,7 @@
 	<GeneDef>
 		<defName>BattIeBear_BattleDrawback_Pyromaniac</defName>
 		<label>drawback: pyromaniac</label>
-		<description>Carriers of this gene have a predisposition towards fire, specifically is beauty and the destruction it causes. While others may find this off-putting, destruction is this pawn's nature.</description>
+		<description>Carriers of this gene have a predisposition towards fire, specifically its beauty and the destruction it causes. While others may find this off-putting, destruction is this pawn's nature.</description>
 		<iconPath>UI/GeneIcons/Gene_Pyromaniac</iconPath>
 		<displayCategory>BattIeBear_BattleReady</displayCategory>
 		<displayOrderInCategory>10</displayOrderInCategory>
@@ -274,7 +274,7 @@
 	<GeneDef>
 		<defName>BattIeBear_BattleDrawback_Psychopath</defName>
 		<label>drawback: psychopath</label>
-		<description>Carriers of this gene have no empathy whatsoever. Excellent in a made-to-order super-soldier; less so in a person reintegrating into society.</description>
+		<description>Carriers of this gene have no empathy whatsoever. Excellent in a made-to-order super-soldier; less so in a person living in a society.</description>
 		<iconPath>UI/GeneIcons/Gene_Psychopath</iconPath>
 		<displayCategory>BattIeBear_BattleReady</displayCategory>
 		<displayOrderInCategory>9</displayOrderInCategory>
