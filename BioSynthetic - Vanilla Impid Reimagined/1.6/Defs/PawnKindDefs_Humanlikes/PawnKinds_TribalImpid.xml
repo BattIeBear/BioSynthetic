@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="TribalBase">
+		<defName>BattIeBear_Impid_Tribal_Warrior</defName>
+		<label>warrior</label>
+		<combatPower>75</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarMask</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>BattIeBear_ImpidMelee</li>
+		</weaponTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="TribalBase">
+		<defName>BattIeBear_Impid_Tribal_Archer</defName>
+		<label>archer</label>
+		<combatPower>75</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>180~350</apparelMoney>
+		<weaponMoney>80~80</weaponMoney>
+		<weaponTags>
+			<li>BattIeBear_ImpidArcher</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="TribalBase"  Name="BattIeBear_Tribal_Hunter">
+		<defName>BattIeBear_Impid_Tribal_Hunter</defName>
+		<label>hunter</label>
+		<combatPower>80</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>Tribal</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>TribalHunter</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<weaponMoney>100~300</weaponMoney>
+		<weaponTags>
+			<li>BattIeBear_ImpidHunter</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>17~26</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BattIeBear_Tribal_Hunter">
+		<defName>BattIeBear_Impid_Tribal_Trader</defName>
+		<label>trader</label>
+		<trader>true</trader>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>9~15</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="TribalBase">
+		<defName>BattIeBear_Impid_Tribal_Elite</defName>
+		<label>elite hunter</label>
+		<combatPower>100</combatPower>
+		<apparelMoney>200~550</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarMask</li>
+		</apparelRequired>
+		<weaponMoney>200~1000</weaponMoney>
+		<weaponTags>
+			<li>BattIeBear_ImpidHunterElite</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>6~12</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="TribalBase">
+		<defName>BattIeBear_Impid_Tribal_Sharpshooter</defName>
+		<label>sharpshooter</label>
+		<combatPower>120</combatPower>
+		<apparelMoney>200~550</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<weaponMoney>500~1500</weaponMoney>
+		<weaponTags>
+			<li>BattIeBear_ImpidSharpshooter</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~16</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="TribalBase">
+		<defName>BattIeBear_Impid_Tribal_Firestarter</defName>
+		<label>firestarter</label>
+		<combatPower>90</combatPower>
+		<apparelMoney>100~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<weaponMoney>200~550</weaponMoney>
+		<weaponTags>
+			<li>BattIeBear_ImpidFireStarter</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>9~15</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="TribalChiefBase">
+		<defName>BattIeBear_Impid_Tribal_ChiefRanged</defName>
+		<label>chief</label>
+		<combatPower>120</combatPower>
+		<weaponTags>
+			<li>BattIeBear_ImpidChiefRanged</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>5~6</initialWillRange>
+		<initialResistanceRange>16~26</initialResistanceRange>
+	</PawnKindDef>
+	
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="BioSynth_VanillaImpidReimagined.ModifyFaction">
+
+		<use Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="MeleeWeapon_Ikwa" or defName="MeleeWeapon_Spear" or defName="MeleeWeapon_Spear"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidMelee</li>
+					</value>
+
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="MeleeWeapon_Axe"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidMelee</li>
+					</value>
+
+				</li>
+				<li Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="Bow_Short" or defName="Flamebow"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidArcher</li>
+					</value>
+
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Gun_BoltActionRifle" or defName="Gun_LMG" or defName="Gun_IncendiaryLauncher"]</xpath>
+					<value>
+						<weaponTags Inherit="True" />
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="Bow_Recurve" or defName="Gun_BoltActionRifle"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidHunter</li>
+					</value>
+
+				</li>
+				<li Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="Bow_Great" or defName="Gun_BoltActionRifle" or defName="Gun_LMG"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidHunterElite</li>
+					</value>
+
+				</li>
+				<li Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="Bow_Great" or defName="Gun_BoltActionRifle"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidSharpshooter</li>
+					</value>
+
+				</li>
+				<li Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="Flamebow" or defName="Gun_IncendiaryLauncher" or defName="Weapon_GrenadeMolotov"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidFireStarter</li>
+					</value>
+
+				</li>
+				<li Class="PatchOperationAdd">
+
+					<xpath>/Defs/ThingDef[defName="Gun_BoltActionRifle" or defName="Gun_IncendiaryLauncher" or defName="Gun_LMG" or defName="Bow_Great"]/weaponTags</xpath>
+					<value>
+						<li>BattIeBear_ImpidChiefRanged</li>
+					</value>
+
+				</li>
+			</operations>
+		</use>
+
+	</Operation>
+
+</Patch>

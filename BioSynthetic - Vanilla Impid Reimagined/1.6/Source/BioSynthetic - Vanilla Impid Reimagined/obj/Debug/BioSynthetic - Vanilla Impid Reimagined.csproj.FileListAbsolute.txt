@@ -1,0 +1,4 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.6\Assemblies\BioSynthetic - Vanilla Impid Reimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.6\Source\BioSynthetic - Vanilla Impid Reimagined\obj\Debug\BioSynthetic - Vanilla Impid Reimagined.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.6\Source\BioSynthetic - Vanilla Impid Reimagined\obj\Debug\BioSynthetic - Vanilla Impid Reimagined.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.6\Source\BioSynthetic - Vanilla Impid Reimagined\obj\Debug\BioSynthetic - Vanilla Impid Reimagined.dll

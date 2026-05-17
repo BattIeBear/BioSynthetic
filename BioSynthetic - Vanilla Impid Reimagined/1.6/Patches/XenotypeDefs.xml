@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="BioSynth_VanillaImpidReimagined.AddNewHairOptions">
+
+		<hair Class="PatchOperationAdd">
+
+			<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+			<value>
+				<li>Hair_InkBlack</li>
+				<li>Hair_ReddishBrown</li>
+				<li>Hair_Blonde</li>
+			</value>
+
+		</hair>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VanillaImpidReimagined.AddNewSkinOptions">
+
+		<both Class="PatchOperationAdd">
+
+			<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+			<value>
+				<li>Skin_PaleRed</li>
+				<li>Skin_DeepYellow</li>
+			</value>
+
+		</both>
+		<yellow Class="PatchOperationAdd">
+
+			<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+			<value>
+				<li>Skin_DeepYellow</li>
+			</value>
+
+		</yellow>
+		<red Class="PatchOperationAdd">
+
+			<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+			<value>
+				<li>Skin_PaleRed</li>
+			</value>
+
+		</red>
+	</Operation>
+
+	<Operation Class="BioSynth_VanillaImpidReimagined.AddBodyOptions">
+
+		<body Class="PatchOperationAdd">
+
+			<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+			<value>
+				<li>Body_Thin</li>
+				<li>Body_Standard</li>
+			</value>
+
+		</body>
+
+	</Operation>
+
+
+	<Operation Class="BioSynth_VanillaImpidReimagined.UseNewGenes">
+
+		<update Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/XenotypeDef[defName="Impid"]/genes/li[text()="AptitudePoor_Plants"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/XenotypeDef[defName="Impid"]/genes/li[text()="Mood_Pessimist"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/XenotypeDef[defName="Impid"]/genes/li[text()="WoundHealing_Slow"]</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+					<value>
+						<li>Superclotting</li>
+						<li>AptitudePoor_Construction</li>
+						<li>Aggression_Aggressive</li>
+						<li>AptitudeTerrible_Plants</li>
+					</value>
+				</li>
+				<li Class="BioSynth_VanillaImpidReimagined.NakedSpeedOptions">
+					
+					<use Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+						<value>
+							<li>NakedSpeed</li>
+						</value>
+					</use>
+
+					<nonuse Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+						<value>
+							<li>AptitudePoor_Mining</li>
+							<li>AptitudePoor_Crafting</li>
+						</value>
+					</nonuse>
+
+				</li>
+
+			</operations>
+		</update>
+
+	</Operation>
+
+</Patch>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BioSynth_VanillaImpidReimagined_ModName>BioSynthetic - Vanilla Impids Reimagined</BioSynth_VanillaImpidReimagined_ModName>
+	<BioSynth_VanillaImpidReimagined_TopWarning>Changing these options will require restarting the game to apply.</BioSynth_VanillaImpidReimagined_TopWarning>
+	<BioSynth_VanillaImpidReimagined_BottomWarning>Don't see the options you chose? Restart your game!</BioSynth_VanillaImpidReimagined_BottomWarning>
+
+	<BioSynth_VanillaImpidReimagined_LabelOne>These options give additional control over how exactly your impids are modified:</BioSynth_VanillaImpidReimagined_LabelOne>
+	<BioSynth_VanillaImpidReimagined_AddNewHairOptions>Add New Hair Color Options</BioSynth_VanillaImpidReimagined_AddNewHairOptions>
+	<BioSynth_VanillaImpidReimagined_AddNewHairOptionsDesc>This setting will add several new hair colors to impids, increasing their diversity.</BioSynth_VanillaImpidReimagined_AddNewHairOptionsDesc>
+	<BioSynth_VanillaImpidReimagined_AddNewSkinColorY>Add New Yellow Skin Color</BioSynth_VanillaImpidReimagined_AddNewSkinColorY>
+	<BioSynth_VanillaImpidReimagined_AddNewSkinColorYDesc>This setting will give the missing yellow skin gene to impids, in-line with their description in game. Use both this and the next for maximum visual diversity!.</BioSynth_VanillaImpidReimagined_AddNewSkinColorYDesc>
+	<BioSynth_VanillaImpidReimagined_AddNewSkinColorR>Add New Red Skin Color</BioSynth_VanillaImpidReimagined_AddNewSkinColorR>
+	<BioSynth_VanillaImpidReimagined_AddNewSkinColorRDesc>This setting will give the missing red skin gene to impids, leaning heavily on their devilish description. Use both this and the previous for maximum visual diversity!.</BioSynth_VanillaImpidReimagined_AddNewSkinColorRDesc>
+	<BioSynth_VanillaImpidReimagined_LimitBodyOptions>Limit Body Options</BioSynth_VanillaImpidReimagined_LimitBodyOptions>
+	<BioSynth_VanillaImpidReimagined_LimitBodyOptionsDesc>This setting will make it so impids always spawn with thin or standard bodies, in-line with this mod's interpretation of them as hit-and-run raiders.</BioSynth_VanillaImpidReimagined_LimitBodyOptionsDesc>
+	<BioSynth_VanillaImpidReimagined_UpdateGenes>Update Genes</BioSynth_VanillaImpidReimagined_UpdateGenes>
+	<BioSynth_VanillaImpidReimagined_UpdateGenesDesc>This setting will get rid of depressive and slow healing, instead doubling down on their poor planting skill, aggression, and nomadic lifestyle, while making them heal wounds quickly.</BioSynth_VanillaImpidReimagined_UpdateGenesDesc>
+	<BioSynth_VanillaImpidReimagined_NakedSpeedOptions>Naked Speed?</BioSynth_VanillaImpidReimagined_NakedSpeedOptions>
+	<BioSynth_VanillaImpidReimagined_NakedSpeedOptionsDesc>When checked, this setting balances impids' metabolism by giving them the Naked Speed gene, making them even faster at the cost of not wearing armor. With Ideology, this will also give impid factions the nudism meme, to better make use of this advantage.\n\nWhen unchecked, their metabolism is balanced by reducing their ability to craft and mine (again focusing on their skill as raiders).\n\nIMPORTANT: Either option will only take affect if "Update Genes" is also selected.</BioSynth_VanillaImpidReimagined_NakedSpeedOptionsDesc>
+
+	<BioSynth_VanillaImpidReimagined_LabelTwo>This setting determines whether or not impids will use custom raid groups:</BioSynth_VanillaImpidReimagined_LabelTwo>
+	<BioSynth_VanillaImpidReimagined_UpdateFactionOptions>Modify Faction</BioSynth_VanillaImpidReimagined_UpdateFactionOptions>
+	<BioSynth_VanillaImpidReimagined_UpdateFactionOptionsDesc>This setting gives both the vanilla impid faction and the one added by this mod custom raid groups. These trade numbers for effectiveness, focusing on their danger at range, devastating ability to cause fire, and incorporating basic firearms scavenged from others.</BioSynth_VanillaImpidReimagined_UpdateFactionOptionsDesc>
+
+</LanguageData>

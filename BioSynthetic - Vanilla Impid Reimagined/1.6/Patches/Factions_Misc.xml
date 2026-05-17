@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="BioSynth_VanillaImpidReimagined.ModifyFaction">
+		<use Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/FactionDef[defName="BattIeBear_TribeRoughImpid" or defName="TribeSavageImpid"]/pawnGroupMakers</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="BattIeBear_TribeRoughImpid" or defName="TribeSavageImpid"]</xpath>
+					<value>
+						<pawnGroupMakers Inherit="False">
+							<li>
+								<kindDef>Combat</kindDef>
+								<commonality>100</commonality>
+								<options>
+									<Tribal_Penitent>5</Tribal_Penitent>
+									<BattIeBear_Impid_Tribal_Warrior>8</BattIeBear_Impid_Tribal_Warrior>
+									<BattIeBear_Impid_Tribal_Archer>6</BattIeBear_Impid_Tribal_Archer>
+									<BattIeBear_Impid_Tribal_Hunter>12</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>8</BattIeBear_Impid_Tribal_Elite>
+									<BattIeBear_Impid_Tribal_Firestarter>4</BattIeBear_Impid_Tribal_Firestarter>
+									<BattIeBear_Impid_Tribal_Sharpshooter>4</BattIeBear_Impid_Tribal_Sharpshooter>
+									<BattIeBear_Impid_Tribal_ChiefRanged>2</BattIeBear_Impid_Tribal_ChiefRanged>
+								</options>
+							</li>
+							<li>
+								<kindDef>Combat</kindDef>
+								<commonality>60</commonality>
+								<options>
+									<BattIeBear_Impid_Tribal_Archer>8</BattIeBear_Impid_Tribal_Archer>
+									<BattIeBear_Impid_Tribal_Hunter>10</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>8</BattIeBear_Impid_Tribal_Elite>
+									<BattIeBear_Impid_Tribal_ChiefRanged>5</BattIeBear_Impid_Tribal_ChiefRanged>
+								</options>
+							</li>
+							<li>
+								<kindDef>Combat</kindDef>
+								<commonality>60</commonality>
+								<options>
+									<Tribal_Penitent>10</Tribal_Penitent>
+									<BattIeBear_Impid_Tribal_Warrior>10</BattIeBear_Impid_Tribal_Warrior>
+									<BattIeBear_Impid_Tribal_Sharpshooter>10</BattIeBear_Impid_Tribal_Sharpshooter>
+									<BattIeBear_Impid_Tribal_ChiefRanged>5</BattIeBear_Impid_Tribal_ChiefRanged>
+								</options>
+							</li>
+							<li>
+								<kindDef>Combat</kindDef>
+								<commonality>5</commonality>
+								<options>
+									<Tribal_Breacher>5</Tribal_Breacher>
+									<Tribal_Penitent>5</Tribal_Penitent>
+									<BattIeBear_Impid_Tribal_Warrior>12</BattIeBear_Impid_Tribal_Warrior>
+									<BattIeBear_Impid_Tribal_Archer>5</BattIeBear_Impid_Tribal_Archer>
+									<BattIeBear_Impid_Tribal_Hunter>8</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>8</BattIeBear_Impid_Tribal_Elite>
+									<BattIeBear_Impid_Tribal_Firestarter>5</BattIeBear_Impid_Tribal_Firestarter>
+									<BattIeBear_Impid_Tribal_ChiefRanged>3</BattIeBear_Impid_Tribal_ChiefRanged>
+								</options>
+							</li>
+							<li>
+								<kindDef>Peaceful</kindDef>
+								<options>
+									<Tribal_Child_Fire>20</Tribal_Child_Fire>
+									<Tribal_Child>8</Tribal_Child>
+									<BattIeBear_Impid_Tribal_Warrior>8</BattIeBear_Impid_Tribal_Warrior>
+									<BattIeBear_Impid_Tribal_Archer>16</BattIeBear_Impid_Tribal_Archer>
+									<BattIeBear_Impid_Tribal_Hunter>16</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>8</BattIeBear_Impid_Tribal_Elite>
+									<BattIeBear_Impid_Tribal_Sharpshooter>5</BattIeBear_Impid_Tribal_Sharpshooter>
+									<BattIeBear_Impid_Tribal_ChiefRanged>3</BattIeBear_Impid_Tribal_ChiefRanged>
+								</options>
+							</li>
+							<li>
+								<kindDef>Trader</kindDef>
+								<traders>
+									<BattIeBear_Impid_Tribal_Trader>1</BattIeBear_Impid_Tribal_Trader>
+								</traders>
+								<carriers>
+									<Dromedary>6</Dromedary>
+									<Donkey>5</Donkey>
+									<Alpaca>2.5</Alpaca>
+									<Elephant>2</Elephant>
+								</carriers>
+								<guards>
+									<BattIeBear_Impid_Tribal_Warrior>8</BattIeBear_Impid_Tribal_Warrior>
+									<BattIeBear_Impid_Tribal_Archer>16</BattIeBear_Impid_Tribal_Archer>
+									<BattIeBear_Impid_Tribal_Hunter>16</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>6</BattIeBear_Impid_Tribal_Elite>
+								</guards>
+							</li>
+							<li>
+								<kindDef>Settlement</kindDef>
+								<options>
+									<BattIeBear_Impid_Tribal_Warrior>8</BattIeBear_Impid_Tribal_Warrior>
+									<BattIeBear_Impid_Tribal_Archer>16</BattIeBear_Impid_Tribal_Archer>
+									<BattIeBear_Impid_Tribal_Hunter>16</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>8</BattIeBear_Impid_Tribal_Elite>
+									<BattIeBear_Impid_Tribal_Sharpshooter>5</BattIeBear_Impid_Tribal_Sharpshooter>
+									<BattIeBear_Impid_Tribal_ChiefRanged>3</BattIeBear_Impid_Tribal_ChiefRanged>
+								</options>
+							</li>
+							<li>
+								<kindDef>Settlement_RangedOnly</kindDef>
+								<options>
+									<BattIeBear_Impid_Tribal_Archer>16</BattIeBear_Impid_Tribal_Archer>
+									<BattIeBear_Impid_Tribal_Hunter>16</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>8</BattIeBear_Impid_Tribal_Elite>
+									<BattIeBear_Impid_Tribal_Sharpshooter>5</BattIeBear_Impid_Tribal_Sharpshooter>
+									<BattIeBear_Impid_Tribal_ChiefRanged>3</BattIeBear_Impid_Tribal_ChiefRanged>
+								</options>
+							</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">
+								<kindDef>Miners</kindDef>
+								<commonality>1</commonality>
+								<options>
+									<Tribal_Miner>1</Tribal_Miner>
+								</options>
+							</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">
+								<kindDef>Hunters</kindDef>
+								<commonality>1</commonality>
+								<options>
+									<BattIeBear_Impid_Tribal_Hunter>1</BattIeBear_Impid_Tribal_Hunter>
+									<BattIeBear_Impid_Tribal_Elite>1</BattIeBear_Impid_Tribal_Elite>
+								</options>
+							</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">
+								<kindDef>Loggers</kindDef>
+								<commonality>1</commonality>
+								<options>
+									<Tribal_Logger>1</Tribal_Logger>
+								</options>
+							</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">
+								<kindDef>Farmers</kindDef>
+								<commonality>1</commonality>
+								<options>
+									<Tribal_Farmer>1</Tribal_Farmer>
+								</options>
+							</li>
+						</pawnGroupMakers>
+					</value>
+				</li>
+
+			</operations>
+		</use>
+	</Operation>
+
+	<Operation Class="BioSynth_VanillaImpidReimagined.NakedSpeedOptions">
+		<use Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]</xpath>
+					<value>
+						<requiredMemes>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+						</requiredMemes>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="BattIeBear_TribeRoughImpid"]</xpath>
+					<value>
+						<requiredMemes>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+						</requiredMemes>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]</xpath>
+					<value>
+						<allowedArrivalTemperatureRange MayRequire="Ludeon.RimWorld.Ideology">18~48</allowedArrivalTemperatureRange>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="BattIeBear_TribeRoughImpid"]</xpath>
+					<value>
+						<allowedArrivalTemperatureRange MayRequire="Ludeon.RimWorld.Ideology">18~48</allowedArrivalTemperatureRange>
+					</value>
+				</li>
+			</operations>
+		</use>
+	</Operation>
+
+</Patch>
