@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="TribalChiefBase">
+		<defName>BattIeBear_ImpidUhlanChief</defName>
+		<label>chief</label>
+		<weaponTags>
+			<li>NeolithicMeleeAdvanced</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<apparelRequired Inherit="False">
+			<li>Apparel_TribalHeaddress</li>
+		</apparelRequired>
+		<combatPower>150</combatPower>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<useFactionXenotypes>false</useFactionXenotypes>
+		<xenotypeSet>
+			<xenotypeChances>
+				<VREH_Uhlan MayRequire="vanillaracesexpanded.hussar">1.0</VREH_Uhlan>
+			</xenotypeChances>
+		</xenotypeSet>
+		<initialWillRange>5~6</initialWillRange>
+		<initialResistanceRange>38~58</initialResistanceRange>
+	</PawnKindDef>
+	
+</Defs>

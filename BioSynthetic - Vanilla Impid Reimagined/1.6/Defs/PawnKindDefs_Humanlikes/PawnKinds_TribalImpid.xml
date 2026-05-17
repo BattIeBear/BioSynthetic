@@ -171,6 +171,9 @@
 		<defName>BattIeBear_Impid_Tribal_ChiefRanged</defName>
 		<label>chief</label>
 		<combatPower>120</combatPower>
+		<apparelRequired Inherit="False">
+			<li>Apparel_TribalHeaddress</li>
+		</apparelRequired>
 		<weaponTags>
 			<li>BattIeBear_ImpidChiefRanged</li>
 		</weaponTags>

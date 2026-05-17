@@ -2,17 +2,70 @@
 <Patch>
 
 	<Operation Class="BioSynth_VREHussarReimagined.UhlanImpidOptions">
-		
-		<Impid Class="PatchOperationReplace">
-			<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]/xenotypeSet/xenotypeChances</xpath>
-			<value>
-				<xenotypeChances>
-					<VREH_Uhlan>0.01</VREH_Uhlan>
-					<Impid>.99</Impid>
-				</xenotypeChances>
-			</value>
+
+		<Impid Class="PatchOperationFindMod">
+			<mods>
+				<li>BioSynthetic: Vanilla Impid Reimagined</li>
+			</mods>
+			<nomatch Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]/pawnGroupMakers/li[options/Tribal_ChiefMelee]/options</xpath>
+						<value>
+							<BattIeBear_ImpidUhlanChief>1</BattIeBear_ImpidUhlanChief>
+						</value>
+					</li>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]/pawnGroupMakers/li/options/Tribal_ChiefMelee</xpath>
+					</li>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]/pawnGroupMakers/li/options/Tribal_ChiefRanged</xpath>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid"]</xpath>
+						<value>
+							<fixedLeaderKinds>
+								<li>BattIeBear_ImpidUhlanChief</li>
+							</fixedLeaderKinds>
+						</value>
+					</li>
+				</operations>
+			</nomatch>
+			<match  Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid" or defName="BattIeBear_TribeRoughImpid"]/pawnGroupMakers/li[options/Tribal_ChiefMelee]/options</xpath>
+						<value>
+							<BattIeBear_ImpidUhlanChief>1</BattIeBear_ImpidUhlanChief>
+						</value>
+					</li>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid" or defName="BattIeBear_TribeRoughImpid"]/pawnGroupMakers/li/options/Tribal_ChiefMelee</xpath>
+					</li>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid" or defName="BattIeBear_TribeRoughImpid"]/pawnGroupMakers/li/options/Tribal_ChiefRanged</xpath>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid" or defName="BattIeBear_TribeRoughImpid"]/pawnGroupMakers/li[options/BattIeBear_Impid_Tribal_ChiefRanged]/options</xpath>
+						<value>
+							<BattIeBear_ImpidUhlanChief>1</BattIeBear_ImpidUhlanChief>
+						</value>
+					</li>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid" or defName="BattIeBear_TribeRoughImpid"]/pawnGroupMakers/li/options/BattIeBear_Impid_Tribal_ChiefRanged</xpath>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/FactionDef[defName="TribeSavageImpid" or defName="BattIeBear_TribeRoughImpid"]</xpath>
+						<value>
+							<fixedLeaderKinds>
+								<li>BattIeBear_ImpidUhlanChief</li>
+							</fixedLeaderKinds>
+						</value>
+					</li>
+				</operations>
+			</match>
 		</Impid>
-		
+
 	</Operation>
-	
+
 </Patch>
