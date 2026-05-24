@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--Hides Hemogenic Stomach Hediffs-->
+	<Operation Class="BioSynth_VRE_Sanguophage.HemogenHungerOptions">
+
+		<show Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName="BattIeBear_Hemogen_HungerOffset" or defName="BattIeBear_Hemogen_HungerRemove"]/stages/li/becomeVisible</xpath>
+			<value>
+				<becomeVisible>true</becomeVisible>
+			</value>
+		</show>
+
+	</Operation>
+
+	<!--Gene Regrowing-->
+	<Operation Class="BioSynth_VRE_Sanguophage.GeneRegrowthOptions">
+
+		<year Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/HediffDef[defName="XenogermReplicating"]/comps/li[@Class="HediffCompProperties_Disappears"]/disappearsAfterTicks</xpath>
+					<value>
+						<disappearsAfterTicks>3000000~4200000</disappearsAfterTicks>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="Sanguophage" or defName="VRE_Bruxa" or defName="VRE_Ekkimian" or defName="VRE_Strigoi"]/xenogermReplicatingDurationLeftDaysRange</xpath>
+					<value>
+						<xenogermReplicatingDurationLeftDaysRange>0.1~70</xenogermReplicatingDurationLeftDaysRange>
+					</value>
+				</li>
+			</operations>
+		</year>
+		<half Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/HediffDef[defName="XenogermReplicating"]/comps/li[@Class="HediffCompProperties_Disappears"]/disappearsAfterTicks</xpath>
+					<value>
+						<disappearsAfterTicks>1500000~2100000</disappearsAfterTicks>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="Sanguophage" or defName="VRE_Bruxa" or defName="VRE_Ekkimian" or defName="VRE_Strigoi"]/xenogermReplicatingDurationLeftDaysRange</xpath>
+					<value>
+						<xenogermReplicatingDurationLeftDaysRange>0.1~35</xenogermReplicatingDurationLeftDaysRange>
+					</value>
+				</li>
+			</operations>
+		</half>
+
+	</Operation>
+
+</Patch>

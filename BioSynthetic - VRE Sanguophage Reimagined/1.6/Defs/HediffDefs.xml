@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>BattIeBear_Hemogen_HungerOffset</defName>
+		<label>hemogenic stomach</label>
+		<description>Being hemogenic reduces this person's reliance on normal food.</description>
+		<stages>
+			<li>
+				<hungerRateFactor>0.5</hungerRateFactor>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0.0</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>BattIeBear_Hemogen_HungerRemove</defName>
+		<label>hemogenic stomach</label>
+		<description>Being hemogenic means this person no longer requires food.</description>
+		<stages>
+			<li>
+				<hungerRateFactor>0.0</hungerRateFactor>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0.0</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
+	
+</Defs>

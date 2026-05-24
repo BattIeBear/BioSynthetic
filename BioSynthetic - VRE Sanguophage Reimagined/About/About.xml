@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>BioSynthetic: VRE Sanguophage Reimagined</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.BioSynth.VRESanguophage</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1826140</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>vanillaracesexpanded.sanguophage</packageId>
+			<displayName>Vanilla Races Expanded - Sanguophage</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>V1.6
+
+This mod is a reimagining of the Sanguophage's added by Vanilla Races Expanded - Sanguophage. It focuses on customization, with several options that affect the appearance of Bruxa, Ekkimian, and Strigoi, as well as the ability to disable new pawns of any type from being generated.
+
+It also has several options related to Sanguophages as a whole, such as reducing or removing their need for food, disabling the Blood Moon event, and more! Includes additionaloptions if VRE Highmate or VRE Waster are also installed.
+
+Found an issue? Leave a comment!
+</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>vanillaracesexpanded.sanguophage</li>
+		<li>vanillaracesexpanded.waster</li>
+		<li>vanillaracesexpanded.highmate</li>
+	</loadAfter>
+</ModMetaData>

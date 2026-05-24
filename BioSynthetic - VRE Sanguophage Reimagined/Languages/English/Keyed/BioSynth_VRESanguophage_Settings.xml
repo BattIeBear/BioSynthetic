@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BioSynth_VRESanguophage_ModName>BioSynthetic - VRE Sanguophage Reimagined</BioSynth_VRESanguophage_ModName>
+	<BioSynth_VRESanguophage_TopWarning>Changing these options will require restarting the game to apply. Changing genes will not affect already created pawns.</BioSynth_VRESanguophage_TopWarning>
+	<BioSynth_VRESanguophage_BottomWarning>Don't see the options you chose? Restart your game!</BioSynth_VRESanguophage_BottomWarning>
+
+	<BioSynth_VRESanguophage_Label1>Bruxa Options</BioSynth_VRESanguophage_Label1>
+	<BioSynth_VRESanguophage_RemoveBruxaSoft>Disable Bruxa</BioSynth_VRESanguophage_RemoveBruxaSoft>
+	<BioSynth_VRESanguophage_RemoveBruxaSoftDesc>Stops new Bruxa from spawning whenever a Sanguophage is generated. Will not affect already created pawns.</BioSynth_VRESanguophage_RemoveBruxaSoftDesc>
+	<BioSynth_VRESanguophage_BruxaBodyStandard>Bruxa Use Standard Body</BioSynth_VRESanguophage_BruxaBodyStandard>
+	<BioSynth_VRESanguophage_BruxaBodyStandardDesc>Currently, Bruxa can spawn with any body type. This will make sure they always spawn with a Standard body.</BioSynth_VRESanguophage_BruxaBodyStandardDesc>
+	<BioSynth_VRESanguophage_BruxaRemoveHair>Remove Sanguine Hair</BioSynth_VRESanguophage_BruxaRemoveHair>
+	<BioSynth_VRESanguophage_BruxaRemoveHairDesc>Removes the Sanguine Hair gene from the Bruxa, making it more compatible with non-baseliner xenotypes.</BioSynth_VRESanguophage_BruxaRemoveHairDesc>
+	<BioSynth_VRESanguophage_BruxaPerfectBody>Bruxa Have Perfect Bodies</BioSynth_VRESanguophage_BruxaPerfectBody>
+	<BioSynth_VRESanguophage_BruxaPerfectBodyDesc>Bruxa will have the Perfect Body gene.\n\nRequires Vanilla Races Expanded - Highmates.</BioSynth_VRESanguophage_BruxaPerfectBodyDesc>
+
+	<BioSynth_VRESanguophage_Label2>Ekkimian Options</BioSynth_VRESanguophage_Label2>
+	<BioSynth_VRESanguophage_RemoveEkkimianSoft>Disable Ekkimian</BioSynth_VRESanguophage_RemoveEkkimianSoft>
+	<BioSynth_VRESanguophage_RemoveEkkimianSoftDesc>Stops new Ekkimian from spawning whenever a Sanguophage is generated. Will not affect already created pawns.</BioSynth_VRESanguophage_RemoveEkkimianSoftDesc>
+	<BioSynth_VRESanguophage_EkkimianBothBatEars>Ekkimian Have Both Bat Ears</BioSynth_VRESanguophage_EkkimianBothBatEars>
+	<BioSynth_VRESanguophage_EkkimianBothBatEarsDesc>Gives Ekkimians access to both bat ears added by VRE Sanguophage, adding to their visual diversity.</BioSynth_VRESanguophage_EkkimianBothBatEarsDesc>
+	<BioSynth_VRESanguophage_EkkimianRemoveBatEars>Remove Bat Ears form Ekkimian</BioSynth_VRESanguophage_EkkimianRemoveBatEars>
+	<BioSynth_VRESanguophage_EkkimianRemoveBatEarsDesc>Ekkimians will not have either bat ear gene, adding to their skeletal appearance.</BioSynth_VRESanguophage_EkkimianRemoveBatEarsDesc>
+	<BioSynth_VRESanguophage_EkkimianBeardless>Ekkimians Don't Have Beards</BioSynth_VRESanguophage_EkkimianBeardless>
+	<BioSynth_VRESanguophage_EkkimianBeardlessDesc>Gives Ekkimians the Beardless gene, adding to their skeletal appearance.</BioSynth_VRESanguophage_EkkimianBeardlessDesc>
+	<BioSynth_VRESanguophage_EkkimianBodyPlusHulk>Ekkimians Can Be Hulks</BioSynth_VRESanguophage_EkkimianBodyPlusHulk>
+	<BioSynth_VRESanguophage_EkkimianBodyPlusHulkDesc>Gives Ekkimians access to the Hulk gene (in addition to the Thin and Standard options they start with).</BioSynth_VRESanguophage_EkkimianBodyPlusHulkDesc>
+	<BioSynth_VRESanguophage_EkkimianBodyAny>Ekkimians Can Be Any Body Type</BioSynth_VRESanguophage_EkkimianBodyAny>
+	<BioSynth_VRESanguophage_EkkimianBodyAnyDesc>Removes all body type genes from the Ekkimians, allowing them to spawn with any body type.</BioSynth_VRESanguophage_EkkimianBodyAnyDesc>
+	<BioSynth_VRESanguophage_EkkimianGauntBody>Ekkimians Have Gaunt Bodies</BioSynth_VRESanguophage_EkkimianGauntBody>
+	<BioSynth_VRESanguophage_EkkimianGauntBodyDesc>Ekkimians will have the Gaunt Body gene.\n\nRequires Vanilla Races Expanded - Waster.</BioSynth_VRESanguophage_EkkimianGauntBodyDesc>
+
+	<BioSynth_VRESanguophage_Label3>Strigoi Options</BioSynth_VRESanguophage_Label3>
+	<BioSynth_VRESanguophage_RemoveStrigoiSoft>Disable Strigoi</BioSynth_VRESanguophage_RemoveStrigoiSoft>
+	<BioSynth_VRESanguophage_RemoveStrigoiSoftDesc>Stops new Strigoi from spawning whenever a Sanguophage is generated. Will not affect already created pawns.</BioSynth_VRESanguophage_RemoveStrigoiSoftDesc>
+	<BioSynth_VRESanguophage_StrigoiBothBatEars>Strigoi Have Both Bat Ears</BioSynth_VRESanguophage_StrigoiBothBatEars>
+	<BioSynth_VRESanguophage_StrigoiBothBatEarsDesc>Gives Strigoi access to both bat ears added by VRE Sanguophage, adding to their bestial appearance.</BioSynth_VRESanguophage_StrigoiBothBatEarsDesc>
+	<BioSynth_VRESanguophage_StrigoiRemoveBatEars>Remove Bat Ears form Strigoi</BioSynth_VRESanguophage_StrigoiRemoveBatEars>
+	<BioSynth_VRESanguophage_StrigoiRemoveBatEarsDesc>Strigoi will not have either bat ear gene, making them look more human.</BioSynth_VRESanguophage_StrigoiRemoveBatEarsDesc>
+	<BioSynth_VRESanguophage_StrigoiRemoveBatNose>Remove Bat Nose form Strigoi</BioSynth_VRESanguophage_StrigoiRemoveBatNose>
+	<BioSynth_VRESanguophage_StrigoiRemoveBatNoseDesc>Strigoi will no longer have a bat nose, making them look more human.</BioSynth_VRESanguophage_StrigoiRemoveBatNoseDesc>
+	<BioSynth_VRESanguophage_StrigoiRemoveHair>Strigoi Don't Have Hair</BioSynth_VRESanguophage_StrigoiRemoveHair>
+	<BioSynth_VRESanguophage_StrigoiRemoveHairDesc>Gives Strigoi the Bald gene, adding to their bestial appearance.</BioSynth_VRESanguophage_StrigoiRemoveHairDesc>
+	<BioSynth_VRESanguophage_StrigoiBeardless>Strigoi Don't Have Beards</BioSynth_VRESanguophage_StrigoiBeardless>
+	<BioSynth_VRESanguophage_StrigoiBeardlessDesc>Gives Strigoi the Beardless gene, adding to their bestial appearance.</BioSynth_VRESanguophage_StrigoiBeardlessDesc>
+	<BioSynth_VRESanguophage_StrigoiNonSkinny>Strigoi Don't Have Skinny Bodies</BioSynth_VRESanguophage_StrigoiNonSkinny>
+	<BioSynth_VRESanguophage_StrigoiNonSkinnyDesc>Strigoi will not spawn with skinny bodies, making them look less wimpy.</BioSynth_VRESanguophage_StrigoiNonSkinnyDesc>
+	<BioSynth_VRESanguophage_StrigoiLargeBody>Strigoi Have Large Bodies</BioSynth_VRESanguophage_StrigoiLargeBody>
+	<BioSynth_VRESanguophage_StrigoiLargeBodyDesc>Strigoi will only spawn with fat or hulk bodies, making them look larger.</BioSynth_VRESanguophage_StrigoiLargeBodyDesc>
+	<BioSynth_VRESanguophage_StrigoiHulkBody>Strigoi Have Hulk Bodies</BioSynth_VRESanguophage_StrigoiHulkBody>
+	<BioSynth_VRESanguophage_StrigoiHulkBodyDesc>Strigoi will only spawn with hulk bodies, making them look more intimidating.</BioSynth_VRESanguophage_StrigoiHulkBodyDesc>
+
+	<BioSynth_VRESanguophage_Label4>Extra Options</BioSynth_VRESanguophage_Label4>
+	<BioSynth_VRESanguophage_RemoveBloodmoon>Remove Blood Moon</BioSynth_VRESanguophage_RemoveBloodmoon>
+	<BioSynth_VRESanguophage_RemoveBloodmoonDesc>Disables the Blood Moon incident. This is safe to do on any save, even if a Blood Moon event is currently happening. It will not end the current Blood Moon, but will stop the next one.</BioSynth_VRESanguophage_RemoveBloodmoonDesc>
+	
+	<BioSynth_VRESanguophage_HemogenicHalfHunger>Hemogenic Gene Decreases Hunger</BioSynth_VRESanguophage_HemogenicHalfHunger>
+	<BioSynth_VRESanguophage_HemogenicHalfHungerDesc>Hemogenic pawns lose hunger at half of their normal rate.</BioSynth_VRESanguophage_HemogenicHalfHungerDesc>
+	<BioSynth_VRESanguophage_HemogenicNoHunger>Hemogenic Pawns Don't Need Food</BioSynth_VRESanguophage_HemogenicNoHunger>
+	<BioSynth_VRESanguophage_HemogenicNoHungerDesc>Hemogenic pawns can, but don't need to, eat.</BioSynth_VRESanguophage_HemogenicNoHungerDesc>
+	<BioSynth_VRESanguophage_HemogenicHideHediff>Hide Hediff</BioSynth_VRESanguophage_HemogenicHideHediff>
+	<BioSynth_VRESanguophage_HemogenicHideHediffDesc>When disabled, you won't see the Hemogenic Hunger hediff (the hediff added by either of the two options above) in the pawn's health tab.</BioSynth_VRESanguophage_HemogenicHideHediffDesc>
+
+	<BioSynth_VRESanguophage_GenesRegrowOneYear>Genes Regrow in One Year</BioSynth_VRESanguophage_GenesRegrowOneYear>
+	<BioSynth_VRESanguophage_GenesRegrowOneYearDesc>Genes will regrow in one year, half of the vanilla time.</BioSynth_VRESanguophage_GenesRegrowOneYearDesc>
+	<BioSynth_VRESanguophage_GenesRegrowHalfYear>Genes Regrow in Half a Year</BioSynth_VRESanguophage_GenesRegrowHalfYear>
+	<BioSynth_VRESanguophage_GenesRegrowHalfYearDesc>Genes will regrow in half a year, a quarter of the vanilla time.</BioSynth_VRESanguophage_GenesRegrowHalfYearDesc>
+
+	<BioSynth_VRESanguophage_BaselinerForced>Baseliner Sanguophages Only</BioSynth_VRESanguophage_BaselinerForced>
+	<BioSynth_VRESanguophage_BaselinerForcedDesc>Sanguophages can only spawn as baseliners, instead of other endotypes (like Dirtmoles or Pigskins).</BioSynth_VRESanguophage_BaselinerForcedDesc>
+
+</LanguageData>
