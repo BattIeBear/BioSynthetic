@@ -90,9 +90,37 @@ namespace BioSynth_VRE_Highmate
             listingStandard.GapLine();
 
             listingStandard.Label("BioSynth_VREHigmate_Label2".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_VREHigmate_CatEarsDefaultSprite".Translate(), ref BioSynthVREHighmateSettings.CatEarsDefaultSprite, "BioSynth_VREHigmate_CatEarsDefaultSpriteDesc".Translate());
+            //listingStandard.CheckboxLabeled("BioSynth_VREHigmate_CatEarsDefaultSprite".Translate(), ref BioSynthVREHighmateSettings.CatEarsDefaultSprite, "BioSynth_VREHigmate_CatEarsDefaultSpriteDesc".Translate());
             listingStandard.CheckboxLabeled("BioSynth_VREHigmate_CatEarsHairColor".Translate(), ref BioSynthVREHighmateSettings.CatEarsHairColor, "BioSynth_VREHigmate_CatEarsHairColorDesc".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_VREHigmate_HalfCatEars".Translate(), ref BioSynthVREHighmateSettings.HalfCatEars, "BioSynth_VREHigmate_HalfCatEarsDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHigmate_FelineEarsHairColor".Translate(), ref BioSynthVREHighmateSettings.FelineEarsHairColor, "BioSynth_VREHigmate_FelineEarsHairColorDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHigmate_FelineHumanEars".Translate(), ref BioSynthVREHighmateSettings.FelineHumanEars, "BioSynth_VREHigmate_FelineHumanEarsDesc".Translate());
+            if (BioSynthVREHighmateSettings.FelineHumanEars == true)
+            {
+                BioSynthVREHighmateSettings.CatHumanEars = false;
+                BioSynthVREHighmateSettings.CatFelineEars = false;
+                BioSynthVREHighmateSettings.CatFelineHumanEars = false;
+            }
+            listingStandard.CheckboxLabeled("BioSynth_VREHigmate_CatHumanEars".Translate(), ref BioSynthVREHighmateSettings.CatHumanEars, "BioSynth_VREHigmate_CatHumanEarsDesc".Translate());
+            if (BioSynthVREHighmateSettings.CatHumanEars == true)
+            {
+                BioSynthVREHighmateSettings.FelineHumanEars = false;
+                BioSynthVREHighmateSettings.CatFelineEars = false;
+                BioSynthVREHighmateSettings.CatFelineHumanEars = false;
+            }
+            listingStandard.CheckboxLabeled("BioSynth_VREHigmate_CatFelineEars".Translate(), ref BioSynthVREHighmateSettings.CatFelineEars, "BioSynth_VREHigmate_CatFelineEarsDesc".Translate());
+            if (BioSynthVREHighmateSettings.CatFelineEars == true)
+            {
+                BioSynthVREHighmateSettings.FelineHumanEars = false;
+                BioSynthVREHighmateSettings.CatHumanEars = false;
+                BioSynthVREHighmateSettings.CatFelineHumanEars = false;
+            }
+            listingStandard.CheckboxLabeled("BioSynth_VREHigmate_CatFelineHumanEars".Translate(), ref BioSynthVREHighmateSettings.CatFelineHumanEars, "BioSynth_VREHigmate_CatFelineHumanEarsDesc".Translate());
+            if (BioSynthVREHighmateSettings.CatFelineHumanEars == true)
+            {
+                BioSynthVREHighmateSettings.FelineHumanEars = false;
+                BioSynthVREHighmateSettings.CatHumanEars = false;
+                BioSynthVREHighmateSettings.CatFelineEars = false;
+            }
             listingStandard.CheckboxLabeled("BioSynth_VREHigmate_HalfCatTails".Translate(), ref BioSynthVREHighmateSettings.HalfCatTails, "BioSynth_VREHigmate_HalfCatTailsDesc".Translate());
 
             listingStandard.GapLine();

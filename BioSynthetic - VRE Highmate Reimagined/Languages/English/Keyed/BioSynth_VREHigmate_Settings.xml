@@ -14,12 +14,18 @@
 	<BioSynth_VREHigmate_AllowCustomSkinColorsDesc>Allows for a new, bubblegum pink skin.</BioSynth_VREHigmate_AllowCustomSkinColorsDesc>
 	
 	<BioSynth_VREHigmate_Label2>The following choices require you to have "Cat Genes" enabled in the Vanilla Races Expanded: Highmate mod.</BioSynth_VREHigmate_Label2>
-	<BioSynth_VREHigmate_CatEarsDefaultSprite>Use vanilla cat ear sprite</BioSynth_VREHigmate_CatEarsDefaultSprite>
-	<BioSynth_VREHigmate_CatEarsDefaultSpriteDesc>To have the cat ears use the vanilla cat ear sprite, instead of the one provided by VRE: Highmate, as the VRE one may look odd with certain skin/hair tones.</BioSynth_VREHigmate_CatEarsDefaultSpriteDesc>
 	<BioSynth_VREHigmate_CatEarsHairColor>Cat ears use hair color</BioSynth_VREHigmate_CatEarsHairColor>
-	<BioSynth_VREHigmate_CatEarsHairColorDesc>To have the cat ears use your pawn's hair color, instead of their skin color.</BioSynth_VREHigmate_CatEarsHairColorDesc>
-	<BioSynth_VREHigmate_HalfCatEars>50/50 Cat Ears</BioSynth_VREHigmate_HalfCatEars>
-	<BioSynth_VREHigmate_HalfCatEarsDesc>Only half of the highmates will generate with cat ears, the others will generate with the Human Ears gene.</BioSynth_VREHigmate_HalfCatEarsDesc>
+	<BioSynth_VREHigmate_CatEarsHairColorDesc>The vanilla Cat Ears use your pawn's hair color, instead of their skin color.</BioSynth_VREHigmate_CatEarsHairColorDesc>
+	<BioSynth_VREHigmate_FelineEarsHairColor>Feline ears use hair color</BioSynth_VREHigmate_FelineEarsHairColor>
+	<BioSynth_VREHigmate_FelineEarsHairColorDesc>Have the VRE Highmat Feline Ears use your pawn's hair color, instead of their skin color.</BioSynth_VREHigmate_FelineEarsHairColorDesc>
+	<BioSynth_VREHigmate_FelineHumanEars>50/50 Feline Ears</BioSynth_VREHigmate_FelineHumanEars>
+	<BioSynth_VREHigmate_FelineHumanEarsDesc>Half of the highmates will generate with the Feline Ears from VRE Highmate, the others will generate with the Human Ears gene.</BioSynth_VREHigmate_FelineHumanEarsDesc>
+	<BioSynth_VREHigmate_CatHumanEars>50/50 Cat Ears</BioSynth_VREHigmate_CatHumanEars>
+	<BioSynth_VREHigmate_CatHumanEarsDesc>Half of the highmates will generate with the Cat Ears from vanilla, the others will generate with the Human Ears gene.</BioSynth_VREHigmate_CatHumanEarsDesc>
+	<BioSynth_VREHigmate_CatFelineEars>50/50 Cat/Feline Ears</BioSynth_VREHigmate_CatFelineEars>
+	<BioSynth_VREHigmate_CatFelineEarsDesc>Half of the highmates will generate with the Feline Ears from VRE Highmate, the others will generate with the Cat Ears from vanilla.</BioSynth_VREHigmate_CatFelineEarsDesc>
+	<BioSynth_VREHigmate_CatFelineHumanEars>33/33/33 Ears</BioSynth_VREHigmate_CatFelineHumanEars>
+	<BioSynth_VREHigmate_CatFelineHumanEarsDesc>Highmates will have a cance to generate either with VRE Highmates' Feline Ears, the vanilla Cat Ears, or Human Ears for maximum diversity!</BioSynth_VREHigmate_CatFelineHumanEarsDesc>
 	<BioSynth_VREHigmate_HalfCatTails>50/50 Cat Tails</BioSynth_VREHigmate_HalfCatTails>
 	<BioSynth_VREHigmate_HalfCatTailsDesc>Only half of the highmates will generate with cat tails, the others will generate with a new Tailless gene.</BioSynth_VREHigmate_HalfCatTailsDesc>
 
@@ -56,4 +62,10 @@
 	<BioSynth_VREHigmate_InitiateLovinRespectsConsentDesc>Initiate Lovin' ability can be used on just about any pawn as long as they are of age and have at least 0 opinion of the highmate. The problem with this is that it can even be used on prisoners or slaves. If you find that to be problematic, turn this on.</BioSynth_VREHigmate_InitiateLovinRespectsConsentDesc>
 
 	
+	<!--Kept only for versions prior to 1.6-->
+	<BioSynth_VREHigmate_HalfCatEars>50/50 Cat Ears</BioSynth_VREHigmate_HalfCatEars>
+	<BioSynth_VREHigmate_HalfCatEarsDesc>Only half of the highmates will generate with cat ears, the others will generate with the Human Ears gene.</BioSynth_VREHigmate_HalfCatEarsDesc>
+	<BioSynth_VREHigmate_CatEarsDefaultSprite>Use vanilla cat ear sprite</BioSynth_VREHigmate_CatEarsDefaultSprite>
+	<BioSynth_VREHigmate_CatEarsDefaultSpriteDesc>To have the cat ears use the vanilla cat ear sprite, instead of the one provided by VRE: Highmate, as the VRE one may look odd with certain skin/hair tones.</BioSynth_VREHigmate_CatEarsDefaultSpriteDesc>
+
 </LanguageData>

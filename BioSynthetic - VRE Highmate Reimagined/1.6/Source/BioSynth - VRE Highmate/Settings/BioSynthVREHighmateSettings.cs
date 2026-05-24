@@ -10,9 +10,13 @@ namespace BioSynth_VRE_Highmate
         public static bool AllowCustomSkinColors = true;
 
         /// choices for the cat genes (if activated in VRE)
-        public static bool CatEarsDefaultSprite = true;
+        //public static bool CatEarsDefaultSprite = true;
         public static bool CatEarsHairColor = true;
-        public static bool HalfCatEars = false;
+        public static bool FelineEarsHairColor = true;
+        public static bool FelineHumanEars = false;
+        public static bool CatHumanEars = false;
+        public static bool CatFelineEars = false;
+        public static bool CatFelineHumanEars = false;
         public static bool HalfCatTails = false;
 
         /// minor toggleable options
@@ -41,9 +45,13 @@ namespace BioSynth_VRE_Highmate
             Scribe_Values.Look(ref AllowExtraHairColors, "AllowExtraHairColors");
             Scribe_Values.Look(ref AllowExtraSkinColors, "AllowExtraSkinColors");
             Scribe_Values.Look(ref AllowCustomSkinColors, "AllowCustomSkinColors");
-            Scribe_Values.Look(ref CatEarsDefaultSprite, "CatEarsDefaultSprite");
+            //Scribe_Values.Look(ref CatEarsDefaultSprite, "CatEarsDefaultSprite");
             Scribe_Values.Look(ref CatEarsHairColor, "CatEarsHairColor");
-            Scribe_Values.Look(ref HalfCatEars, "HalfCatEars");
+            Scribe_Values.Look(ref FelineEarsHairColor, "FelineEarsHairColor");
+            Scribe_Values.Look(ref FelineHumanEars, "FelineHumanEars");
+            Scribe_Values.Look(ref CatHumanEars, "CatHumanEars");
+            Scribe_Values.Look(ref CatFelineEars, "CatFelineEars");
+            Scribe_Values.Look(ref CatFelineHumanEars, "CatFelineHumanEars");
             Scribe_Values.Look(ref HalfCatTails, "HalfCatTails");
             Scribe_Values.Look(ref OptionalRewriteThoughts, "OptionalRewriteThoughts");
             Scribe_Values.Look(ref OptionalTrimHairSelection, "OptionalTrimHairSelection");

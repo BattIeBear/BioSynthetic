@@ -2,7 +2,7 @@
 <Patch>
 	
 	<!--Applies sprite options to Cat Ears gene-->
-	<Operation Class="BioSynth_VRE_Highmate.CatEarSpriteOptions">
+	<!--<Operation Class="BioSynth_VRE_Highmate.CatEarSpriteOptions">
 
 		<VanillaSprite Class="PatchOperationReplace">
 			<xpath>/Defs/GeneDef[defName="VRE_FelineEars"]/renderNodeProperties/li/texPath</xpath>
@@ -11,10 +11,20 @@
 			</value>
 		</VanillaSprite>
 
-	</Operation>
+	</Operation>-->
 
 	<!--Applies color options to Cat Ears gene-->
 	<Operation Class="BioSynth_VRE_Highmate.CatEarColorOptions">
+
+		<HairColor Class="PatchOperationReplace">
+			<xpath>/Defs/GeneDef[defName="Ears_Cat"]/renderNodeProperties/li/colorType</xpath>
+			<value>
+				<colorType>Hair</colorType>
+			</value>
+		</HairColor>
+
+	</Operation>
+	<Operation Class="BioSynth_VRE_Highmate.FelineEarColorOptions">
 
 		<HairColor Class="PatchOperationReplace">
 			<xpath>/Defs/GeneDef[defName="VRE_FelineEars"]/renderNodeProperties/li/colorType</xpath>
@@ -25,17 +35,59 @@
 
 	</Operation>
 
-	<!--Applies Cat Ears gene to only half of the generated Highmates by adding the Human Ears gene-->
+	<!--Applies chosen setting to determine Ear Types of Highmates-->
 	<Operation Class="BioSynth_VRE_Highmate.CatEarGenerationOptions">
 
-		<HalfOnly Class="PatchOperationAdd">
+		<FelineHuman Class="PatchOperationAdd">
 			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
 			<value>
 				<li>Ears_Human</li>
 			</value>
-		</HalfOnly>
+		</FelineHuman>
+		<CatHuman Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes/li[text()="VRE_FelineEars"</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+					<value>
+						<li>Ears_Cat</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+					<value>
+						<li>Ears_Human</li>
+					</value>
+				</li>
+			</operations>
+		</CatHuman>
+		<CatFeline Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>Ears_Cat</li>
+			</value>
+		</CatFeline>
+		<CatFelineHuman Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+					<value>
+						<li>Ears_Cat</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+					<value>
+						<li>Ears_Human</li>
+					</value>
+				</li>
+			</operations>
+		</CatFelineHuman>
 
-	</Operation>
+	
+</Operation>
 
 	<!--Applies Cat Tail gene to only half of the generated Highmates by adding the Tailless gene-->
 	<Operation Class="BioSynth_VRE_Highmate.CatTailGenerationOptions">
