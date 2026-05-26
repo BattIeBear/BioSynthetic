@@ -27,6 +27,12 @@ Found an issue? Leave a comment!
 			<steamWorkshopUrl>https://store.steampowered.com/app/1826140</steamWorkshopUrl>
 		</li>
 		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
 			<packageId>vanillaracesexpanded.hussar</packageId>
 			<displayName>Vanilla Races Expanded - Hussar</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390</steamWorkshopUrl>
@@ -35,6 +41,7 @@ Found an issue? Leave a comment!
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
 		<li>vanillaracesexpanded.hussar</li>
 		<li>BattIeBear.BioSynth.ImpidReimagined</li>
 	</loadAfter>
