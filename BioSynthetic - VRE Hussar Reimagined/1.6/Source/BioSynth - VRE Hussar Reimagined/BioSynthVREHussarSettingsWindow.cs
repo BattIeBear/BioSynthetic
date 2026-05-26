@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using RimWorld;
+using System.Collections.Generic;
+using UnityEngine;
 using Verse;
 
 namespace BioSynth_VREHussarReimagined
@@ -37,56 +39,73 @@ namespace BioSynth_VREHussarReimagined
             listingStandard.GapLine();
 
             listingStandard.Label("BioSynth_VREHussar_Label3".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_VREHussar_Demon".Translate(), ref BioSynthVREHussarSettings.Demon, "BioSynth_VREHussar_DemonDesc".Translate());
             if(BioSynthVREHussarSettings.Demon)
             {
-                BioSynthVREHussarSettings.Devil = false;
-                BioSynthVREHussarSettings.Fiend = false;
-                BioSynthVREHussarSettings.Bloodletter = false;
-                BioSynthVREHussarSettings.Bloodthirster = false;
+                BioSynthVREHussarSettings.UhlanName = BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Demon;
             }
-            listingStandard.CheckboxLabeled("BioSynth_VREHussar_Devil".Translate(), ref BioSynthVREHussarSettings.Devil, "BioSynth_VREHussar_DevilDesc".Translate());
-            if (BioSynthVREHussarSettings.Devil)
+            else if (BioSynthVREHussarSettings.Devil)
             {
-                BioSynthVREHussarSettings.Demon = false;
-                BioSynthVREHussarSettings.Fiend = false;
-                BioSynthVREHussarSettings.Bloodletter = false;
-                BioSynthVREHussarSettings.Bloodthirster = false;
+                BioSynthVREHussarSettings.UhlanName = BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Devil;
             }
-            listingStandard.CheckboxLabeled("BioSynth_VREHussar_Fiend".Translate(), ref BioSynthVREHussarSettings.Fiend, "BioSynth_VREHussar_FiendDesc".Translate());
-            if (BioSynthVREHussarSettings.Fiend)
+            else if (BioSynthVREHussarSettings.Fiend)
             {
-                BioSynthVREHussarSettings.Demon = false;
-                BioSynthVREHussarSettings.Devil = false;
-                BioSynthVREHussarSettings.Bloodletter = false;
-                BioSynthVREHussarSettings.Bloodthirster = false;
+                BioSynthVREHussarSettings.UhlanName = BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Fiend;
             }
-            listingStandard.CheckboxLabeled("BioSynth_VREHussar_Bloodletter".Translate(), ref BioSynthVREHussarSettings.Bloodletter, "BioSynth_VREHussar_BloodletterDesc".Translate());
-            if (BioSynthVREHussarSettings.Bloodletter)
+            else if (BioSynthVREHussarSettings.Bloodletter)
             {
-                BioSynthVREHussarSettings.Demon = false;
-                BioSynthVREHussarSettings.Devil = false;
-                BioSynthVREHussarSettings.Fiend = false;
-                BioSynthVREHussarSettings.Bloodthirster = false;
+                BioSynthVREHussarSettings.UhlanName = BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Bloodletter;
             }
-            listingStandard.CheckboxLabeled("BioSynth_VREHussar_Bloodthirster".Translate(), ref BioSynthVREHussarSettings.Bloodthirster, "BioSynth_VREHussar_BloodthirsterDesc".Translate());
-            if (BioSynthVREHussarSettings.Bloodthirster)
+            else if (BioSynthVREHussarSettings.Bloodthirster)
             {
-                BioSynthVREHussarSettings.Demon = false;
-                BioSynthVREHussarSettings.Devil = false;
-                BioSynthVREHussarSettings.Fiend = false;
-                BioSynthVREHussarSettings.Bloodletter = false;
+                BioSynthVREHussarSettings.UhlanName = BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Bloodthirster;
             }
+            if (listingStandard.ButtonTextLabeled("BioSynth_VREHussar_UhlanNameOptions".Translate(), BioSynthVREHussarSettings.UhlanName.ToString().Translate(),tooltip: "BioSynth_VREHussar_UhlanNameOptionsDesc".Translate()))
+            {
+                var options = new List<FloatMenuOption>();
+
+                foreach (BioSynthVREHussarSettings.UhlanNames name in System.Enum.GetValues(typeof(BioSynthVREHussarSettings.UhlanNames)))
+                {
+                    BioSynthVREHussarSettings.UhlanNames newName = name;
+
+                    options.Add(new FloatMenuOption(newName.ToString().Translate(),
+                        () =>
+                        {
+                            BioSynthVREHussarSettings.Demon = false;
+                            BioSynthVREHussarSettings.Devil = false;
+                            BioSynthVREHussarSettings.Fiend = false;
+                            BioSynthVREHussarSettings.Bloodletter = false;
+                            BioSynthVREHussarSettings.Bloodthirster = false;
+                            BioSynthVREHussarSettings.UhlanName = newName;
+                        }
+                        ));
+                }
+
+                Find.WindowStack.Add(new FloatMenu(options));
+            }
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalHorns".Translate(), ref BioSynthVREHussarSettings.Horns, "BioSynth_VREHussar_OptionalHornsDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalRidges".Translate(), ref BioSynthVREHussarSettings.Ridges, "BioSynth_VREHussar_OptionalRidgesDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalGlidewings".Translate(), ref BioSynthVREHussarSettings.Glidewings, "BioSynth_VREHussar_OptionalGlidewingsDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalGiant".Translate(), ref BioSynthVREHussarSettings.Giant, "BioSynth_VREHussar_OptionalGiantDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalImpid".Translate(), ref BioSynthVREHussarSettings.Impid, "BioSynth_VREHussar_OptionalImpidDesc".Translate());
+
 
             listingStandard.GapLine();
 
             listingStandard.Label("BioSynth_VREHussar_Label4".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalHorns".Translate(), ref BioSynthVREHussarSettings.Horns, "BioSynth_VREHussar_OptionalHornsDesc".Translate());
-            listingStandard.CheckboxLabeled("BioSynth_VREHussar_OptionalImpid".Translate(), ref BioSynthVREHussarSettings.Impid, "BioSynth_VREHussar_OptionalImpidDesc".Translate());
+            BioSynthVREHussarSettings.IncludeOld = Mathf.RoundToInt(listingStandard.SliderLabeled("BioSynth_VREHussar_Include".Translate() + BioSynthVREHussarSettings.IncludeOld + "%", BioSynthVREHussarSettings.IncludeOld, 0, 100, tooltip: "BioSynth_VREHussar_IncludeDesc".Translate()));
+            if (BioSynthVREHussarSettings.IncludeOld > 0)
+            {
+                BioSynthVREHussarSettings.ConvertToNew = false;
+            }
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_Convert".Translate(), ref BioSynthVREHussarSettings.ConvertToNew, "BioSynth_VREHussar_ConvertDesc".Translate());
+            if (BioSynthVREHussarSettings.ConvertToNew == true)
+            {
+                BioSynthVREHussarSettings.IncludeOld = 0;
+            }
 
             listingStandard.Gap();
 
-            listingStandard.Label("BioSynth_VREHussar_TopWarning".Translate());
+            listingStandard.Label("BioSynth_VREHussar_BottomWarning".Translate());
             listingStandard.End();
             base.DoSettingsWindowContents(inRect);
         }

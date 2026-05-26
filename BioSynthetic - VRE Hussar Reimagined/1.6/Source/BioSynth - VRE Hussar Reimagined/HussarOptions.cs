@@ -26,26 +26,27 @@ namespace BioSynth_VREHussarReimagined
 
         protected override bool ApplyWorker(XmlDocument xml)
         {
-            if (BioSynthVREHussarSettings.Demon)
+            switch(BioSynthVREHussarSettings.UhlanName)
             {
-                Demon.Apply(xml);
+                case BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Uhlan:
+                    break;
+                case BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Demon:
+                    Demon.Apply(xml);
+                    break;
+                case BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Devil:
+                    Devil.Apply(xml);
+                    break;
+                case BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Fiend:
+                    Fiend.Apply(xml);
+                    break;
+                case BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Bloodletter:
+                    Bloodletter.Apply(xml);
+                    break;
+                case BioSynthVREHussarSettings.UhlanNames.BioSynth_VREHussar_Bloodthirster:
+                    Bloodthirster.Apply(xml);
+                    break;
             }
-            else if (BioSynthVREHussarSettings.Devil)
-            {
-                Devil.Apply(xml);
-            }
-            else if (BioSynthVREHussarSettings.Fiend)
-            {
-                Fiend.Apply(xml);
-            }
-            else if (BioSynthVREHussarSettings.Bloodletter)
-            {
-                Bloodletter.Apply(xml);
-            }
-            else if (BioSynthVREHussarSettings.Bloodthirster)
-            {
-                Bloodthirster.Apply(xml);
-            }
+
             return true;
         }
     }
@@ -58,6 +59,45 @@ namespace BioSynth_VREHussarReimagined
             if (BioSynthVREHussarSettings.Horns)
             {
                 Horns.Apply(xml);
+            }
+            return true;
+        }
+    }
+    public class UhlanRidgeOptions : PatchOperation
+    {
+        private PatchOperation Ridges;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            if (BioSynthVREHussarSettings.Ridges)
+            {
+                Ridges.Apply(xml);
+            }
+            return true;
+        }
+    }
+    public class UhlanGlidewingsOptions : PatchOperation
+    {
+        private PatchOperation Remove;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            if (BioSynthVREHussarSettings.Glidewings == false)
+            {
+                Remove.Apply(xml);
+            }
+            return true;
+        }
+    }
+    public class UhlanGiantOptions : PatchOperation
+    {
+        private PatchOperation Remove;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            if (BioSynthVREHussarSettings.Giant == false)
+            {
+                Remove.Apply(xml);
             }
             return true;
         }

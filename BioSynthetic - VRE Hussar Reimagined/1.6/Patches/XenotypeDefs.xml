@@ -142,4 +142,31 @@
 
 	</Operation>
 	
+	<Operation Class="BioSynth_VREHussarReimagined.UhlanRidgeOptions">
+
+		<Ridges Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes</xpath>
+			<value>
+				<li>FacialRidges</li>
+			</value>
+		</Ridges>
+
+	</Operation>
+	
+	<Operation Class="BioSynth_VREHussarReimagined.UhlanGlidewingsOptions">
+
+		<Remove Class="PatchOperationRemove">
+			<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[text()="VREH_Glidewings"]</xpath>
+		</Remove>
+
+	</Operation>
+	
+	<Operation Class="BioSynth_VREHussarReimagined.UhlanGiantOptions">
+
+		<Remove Class="PatchOperationRemove">
+			<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[text()="VREH_Giant"]</xpath>
+		</Remove>
+
+	</Operation>
+	
 </Patch>

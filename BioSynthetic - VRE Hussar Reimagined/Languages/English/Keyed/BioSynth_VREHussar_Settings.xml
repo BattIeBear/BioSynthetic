@@ -19,23 +19,31 @@
 	<BioSynth_VREHussar_DisablePyromania>Disable Pyromaniac Drawback</BioSynth_VREHussar_DisablePyromania>
 	<BioSynth_VREHussar_DisablePyromaniaDesc>This will remove Pyromaniac from the drawback gene list, for those who find it too troublesome to deal with.</BioSynth_VREHussar_DisablePyromaniaDesc>
 
-	<BioSynth_VREHussar_Label3>Uhlan Naming Options</BioSynth_VREHussar_Label3>
-	<BioSynth_VREHussar_Demon>Demon</BioSynth_VREHussar_Demon>
-	<BioSynth_VREHussar_DemonDesc>Replaces the name 'Uhlan' with 'Demon'.</BioSynth_VREHussar_DemonDesc>
-	<BioSynth_VREHussar_Devil>Devil</BioSynth_VREHussar_Devil>
-	<BioSynth_VREHussar_DevilDesc>Replaces the name 'Uhlan' with 'Devil'.</BioSynth_VREHussar_DevilDesc>
-	<BioSynth_VREHussar_Fiend>Fiend</BioSynth_VREHussar_Fiend>
-	<BioSynth_VREHussar_FiendDesc>Replaces the name 'Uhlan' with 'Fiend'.</BioSynth_VREHussar_FiendDesc>
-	<BioSynth_VREHussar_Bloodletter>Bloodletter</BioSynth_VREHussar_Bloodletter>
-	<BioSynth_VREHussar_BloodletterDesc>Replaces the name 'Uhlan' with 'Bloodletter'.</BioSynth_VREHussar_BloodletterDesc>
-	<BioSynth_VREHussar_Bloodthirster>Bloodthirster</BioSynth_VREHussar_Bloodthirster>
-	<BioSynth_VREHussar_BloodthirsterDesc>Replaces the name 'Uhlan' with 'Bloodthirster'.</BioSynth_VREHussar_BloodthirsterDesc>
+	<BioSynth_VREHussar_Label3>Uhlan Options</BioSynth_VREHussar_Label3>
+	<BioSynth_VREHussar_UhlanNameOptions>Uhlans should be called: </BioSynth_VREHussar_UhlanNameOptions>
+	<BioSynth_VREHussar_UhlanNameOptionsDesc>Will rename Uhlans to one of several options.</BioSynth_VREHussar_UhlanNameOptionsDesc>
+	<BioSynth_VREHussar_Uhlan>Uhlans</BioSynth_VREHussar_Uhlan>
+	<BioSynth_VREHussar_Demon>Demons</BioSynth_VREHussar_Demon>
+	<BioSynth_VREHussar_Devil>Devils</BioSynth_VREHussar_Devil>
+	<BioSynth_VREHussar_Fiend>Fiends</BioSynth_VREHussar_Fiend>
+	<BioSynth_VREHussar_Bloodletter>Bloodletters</BioSynth_VREHussar_Bloodletter>
+	<BioSynth_VREHussar_Bloodthirster>Bloodthirsters</BioSynth_VREHussar_Bloodthirster>
 
-	<BioSynth_VREHussar_Label4>Uhlan Extra Options</BioSynth_VREHussar_Label4>
-	<BioSynth_VREHussar_OptionalHorns>Has Horns</BioSynth_VREHussar_OptionalHorns>
+	<BioSynth_VREHussar_OptionalHorns>Have Horns</BioSynth_VREHussar_OptionalHorns>
 	<BioSynth_VREHussar_OptionalHornsDesc>This will give uhlans the Mini Horns gene, reinforcing their fiendish appearance.</BioSynth_VREHussar_OptionalHornsDesc>
-	<BioSynth_VREHussar_OptionalImpid>Impid Raiders</BioSynth_VREHussar_OptionalImpid>
-	<BioSynth_VREHussar_OptionalImpidDesc>This will allow uhlans a very small chance to spawn in impid raids, their natural strength allowing them to quickly rise through the ranks of the frail tribals.</BioSynth_VREHussar_OptionalImpidDesc>
+	<BioSynth_VREHussar_OptionalRidges>Have Facial Ridges</BioSynth_VREHussar_OptionalRidges>
+	<BioSynth_VREHussar_OptionalRidgesDesc>This will give uhlans the Facial Ridges gene, reinforcing their fiendish appearance.</BioSynth_VREHussar_OptionalRidgesDesc>
+	<BioSynth_VREHussar_OptionalGlidewings>Have Glidewings</BioSynth_VREHussar_OptionalGlidewings>
+	<BioSynth_VREHussar_OptionalGlidewingsDesc>This will give uhlans the Glidewings gene, giving them a bonus to moving over difficult terrain. Removing this would be a good way to decrease their high metabolism.\n\nThis is the default option for VRE Hussars.</BioSynth_VREHussar_OptionalGlidewingsDesc>
+	<BioSynth_VREHussar_OptionalGiant>Are Giant</BioSynth_VREHussar_OptionalGiant>
+	<BioSynth_VREHussar_OptionalGiantDesc>This will give uhlans the Giant gene, giving them many health benefits. Removing this would be a good way to decrease their high metabolism.\n\nThis is the default option for VRE Hussars.</BioSynth_VREHussar_OptionalGiantDesc>
+	<BioSynth_VREHussar_OptionalImpid>Lead Impid Raiders</BioSynth_VREHussar_OptionalImpid>
+	<BioSynth_VREHussar_OptionalImpidDesc>This will allow uhlans a very small chance to spawn in impid raids, their natural strength allowing them to easily dominate the frail tribals.</BioSynth_VREHussar_OptionalImpidDesc>
 
+	<BioSynth_VREHussar_Label4>Compatibility Options</BioSynth_VREHussar_Label4>
+	<BioSynth_VREHussar_Include>Parity Chance: </BioSynth_VREHussar_Include>
+	<BioSynth_VREHussar_IncludeDesc>This will cause a percentage of hussars and uhlans (and any other pawns that have the Battle Ready gene) to instead be generated as they normally would be with Vanilla Races Expanded - Hussars.\n\nThis is NOT compatible with the Convert option below.</BioSynth_VREHussar_IncludeDesc>
+	<BioSynth_VREHussar_Convert>Convert Aptitude to Battle Ready</BioSynth_VREHussar_Convert>
+	<BioSynth_VREHussar_ConvertDesc>Hussars, uhlans, and any other pawns with a Weapons Aptitude gene will be converted on load to instead use the Battle Ready gene (following all the options for that gene).\n\nThis is NOT compatible with the Parity option above.</BioSynth_VREHussar_ConvertDesc>
 
 </LanguageData>

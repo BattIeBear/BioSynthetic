@@ -8,32 +8,53 @@ namespace BioSynth_VREHussarReimagined
     public class Gene_BattleReadyRandomizer : Gene
     {
 
+        public static List<GeneDef> genes = new List<GeneDef>();
+
+        public void GenerateGenes()
+        {
+            genes = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("BattleReady") && x.defName != this.def.defName).ToList();
+            GeneDef toughnessGene = DefDatabase<GeneDef>.GetNamed("VREH_Toughness", false);
+            if (toughnessGene != null)
+            {
+                genes.Add(toughnessGene);
+            }
+        }
         public override void PostAdd()
         {
+            if (genes.Count == 0)
+            {
+                GenerateGenes();
+            }
+
             base.PostAdd();
 
-            pawn.genes.AddGene(ValidateAndRandomize(), true);
-            if (BioSynthVREHussarSettings.EnableDrawbacks && Rand.Range(0, 100) < BioSynthVREHussarSettings.DrawbackChance)
+            if (BioSynthVREHussarSettings.ConvertToNew == false && Rand.Range(0, 100) < BioSynthVREHussarSettings.IncludeOld)
             {
-                pawn.genes.AddGene(ValidateAndRandomizeDrawback(), true);
+                pawn.genes.AddGene(ValidateAndRandomize(), pawn.genes.IsXenogene(this));
+            }
+            else
+            {
+                pawn.genes.AddGene(ValidateAndRandomize(), pawn.genes.IsXenogene(this));
+                if (BioSynthVREHussarSettings.EnableDrawbacks && Rand.Range(0, 100) < BioSynthVREHussarSettings.DrawbackChance)
+                {
+                    pawn.genes.AddGene(ValidateAndRandomizeDrawback(), pawn.genes.IsXenogene(this));
+                }
             }
             pawn.genes.RemoveGene(this);
         }
 
         public GeneDef ValidateAndRandomize()
         {
-            List<GeneDef> genes = DefDatabase<GeneDef>.AllDefs.Where((GeneDef x) => x.defName.Contains("BattleReady") && x.defName != this.def.defName).ToList();
-            GeneDef toughnessGene = DefDatabase<GeneDef>.GetNamed("VREH_Toughness", false);
-            if (toughnessGene != null)
-            {
-                genes.Add(toughnessGene);
-            }
             List<GeneDef> validatedGenes = new List<GeneDef>();
             List<TraitDef> traits = pawn.story.traits.allTraits.Select((Trait x) => x.def).ToList();
 
             foreach (GeneDef gene in genes)
             {
-                if (gene.forcedTraits != null)
+                if (gene.forcedTraits == null)
+                {
+                    validatedGenes.Add(gene);
+                }
+                else
                 {
                     bool valid = true;
                     for (int i = 0; i < gene.forcedTraits.Count; i++)
