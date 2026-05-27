@@ -54,6 +54,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdjustHemogenOffset\HediffCompProperties_AdjustHemogenOffset.cs" />
+    <Compile Include="AdjustHemogenOffset\HediffComp_AdjustHemogenOffset.cs" />
+    <Compile Include="Harmony\Gene_Deathrest_Wake_Patch.cs" />
     <Compile Include="HeddifDefOf.cs" />
     <Compile Include="FireSpit\CompAbilityEffect_FireSpit.cs" />
     <Compile Include="FireSpit\CompProperties_AbilityFireSpit.cs" />

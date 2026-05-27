@@ -539,7 +539,7 @@
 			</li>
 		</comps>
 	</AbilityDef>
-	
+
 	<!-- Devil's heart -->
 
 	<HediffDef ParentName="AddedBodyPartBase">
@@ -632,5 +632,235 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>biosynth_DevilHeart</addsHediff>
 	</RecipeDef>
-	
+
+	<!-- UPDATE 1.6-->
+	<!-- Hemofilter Fangs -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_HemofilterFangs</defName>
+		<label>hemofilter fangs</label>
+		<labelNoun>a hemofilter implant</labelNoun>
+		<description>An installed pair of hemofilter fangs. Made out of biosynthetic bone, this jaw also includes a powerfocus chip to filter out impurities in consumed hemogen while making the remaining hemogen more "pure." This results higher quality hemogen that is easier to utilize.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_HemofilterFangs</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_HemofilterFangs</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<HemogenGainFactor>0.25</HemogenGainFactor>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_HemofilterFangs</defName>
+		<label>hemofilter fangs</label>
+		<description>An artificial jaw replacement. Made out of biosynthetic bone, this jaw also includes a powerfocus chip to "filter" out impurities while making the remaining hemogen more "pure." This results higher quality hemogen that is easier to utilize.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallHemofilterFangs</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<PowerfocusChip>1</PowerfocusChip>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>1.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallHemofilterFangs</defName>
+		<label>Install hemofilter fangs</label>
+		<description>Install hemofilter fangs.</description>
+		<jobString>Installing hemofilter fangs.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_HemofilterFangs</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_HemofilterFangs</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_HemofilterFangs</addsHediff>
+	</RecipeDef>
+
+	<!-- Hemonexus Spine -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_HemonexusSpine</defName>
+		<label>hemonexus spine</label>
+		<labelNoun>a hemonexus spine</labelNoun>
+		<description>An installed hemonexus spine. A biogel nerve bundle running down a pawn's spine and equipped with a mechanoid powerfocus chip, it allows pawns to make better use of stored hemogen.\n\n- Hemogen Capacity: +25</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_HemonexusSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_HemonexusSpine</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="BioSynth_Diablitech.HediffCompProperties_AdjustHemogenOffset">
+			</li>
+		</comps>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_HemonexusSpine</defName>
+		<label>hemonexus spine</label>
+		<description>An advanced artificial spine. A biogel nerve bundle running down a pawn's spine and equipped with a mechanoid powerfocus chip, it allows pawns to make better use of stored hemogen.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallHemonexusSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<PowerfocusChip>1</PowerfocusChip>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallHemonexusSpine</defName>
+		<label>install hemonexus spine</label>
+		<description>Install a hemonexus spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_HemonexusSpine</ThingDef>
+			<HediffDef>biosynth_HemonexusSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing hemonexus spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_HemonexusSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_HemonexusSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_HemonexusSpine</addsHediff>
+	</RecipeDef>
+
+	<!-- Psychofluid Spine -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>biosynth_PsychofluidSpine</defName>
+		<label>psychofluid spine</label>
+		<labelNoun>a psychofluid spine</labelNoun>
+		<description>An installed psychofluid spine. A biogel nerve bundle running down a pawn's spine and equipped with a mechanoid powerfocus chip, it allows pawns to extend psyfocus down their spine as well as their brain. This gives them better sensitivity, focus, and heat dissipation.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_PsychofluidSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_PsychofluidSpine</spawnThingOnRemoved>
+		<defaultLabelColor>(194,24,7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PsychicSensitivity>0.25</PsychicSensitivity>
+					<MeditationFocusGain>0.05</MeditationFocusGain>
+					<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>Diablitech</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>biosynth_PsychofluidSpine</defName>
+		<label>psychofluid spine</label>
+		<description>An advanced artificial spine. A biogel nerve bundle running down a pawn's spine and equipped with a mechanoid powerfocus chip, it allows pawns to extend psyfocus down their spine as well as their brain. This gives them better sensitivity, focus, and heat dissipation.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallPsychofluidSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<color>(140,70,70)</color>
+		</graphicData>
+		<costList>
+			<PowerfocusChip>1</PowerfocusChip>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>biosynth_InstallPsychofluidSpine</defName>
+		<label>install psychofluid spine</label>
+		<description>Install a psychofluid spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_PsychofluidSpine</ThingDef>
+			<HediffDef>biosynth_PsychofluidSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing psychofluid spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_PsychofluidSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_PsychofluidSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_PsychofluidSpine</addsHediff>
+	</RecipeDef>
 </Defs>
