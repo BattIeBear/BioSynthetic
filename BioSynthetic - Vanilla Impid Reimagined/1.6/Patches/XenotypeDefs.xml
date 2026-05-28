@@ -65,6 +65,12 @@
 		<update Class="PatchOperationSequence">
 			<operations>
 
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="Impid"]/combatPowerFactor</xpath>
+					<value>
+						<combatPowerFactor>1.5</combatPowerFactor>
+					</value>
+				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/XenotypeDef[defName="Impid"]/genes/li[text()="AptitudePoor_Plants"]</xpath>
 				</li>
