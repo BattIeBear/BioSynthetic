@@ -28,19 +28,20 @@ namespace BioSynth_VREHussarReimagined
 
             base.PostAdd();
 
-            if (BioSynthVREHussarSettings.ConvertToNew == false && Rand.Range(0, 100) < BioSynthVREHussarSettings.IncludeOld)
-            {
-                pawn.genes.AddGene(ValidateAndRandomize(), pawn.genes.IsXenogene(this));
-            }
-            else
+            if (Rand.Range(1, 100) > BioSynthVREHussarSettings.IncludeOld)
             {
                 pawn.genes.AddGene(ValidateAndRandomize(), pawn.genes.IsXenogene(this));
                 if (BioSynthVREHussarSettings.EnableDrawbacks && Rand.Range(0, 100) < BioSynthVREHussarSettings.DrawbackChance)
                 {
                     pawn.genes.AddGene(ValidateAndRandomizeDrawback(), pawn.genes.IsXenogene(this));
                 }
+                pawn.genes.RemoveGene(this);
             }
-            pawn.genes.RemoveGene(this);
+            else if (BioSynthVREHussarSettings.ConvertToNew == false)
+            {
+                pawn.genes.AddGene(DefDatabase<GeneDef>.GetNamed("VREHT_WeaponAptitude_Randomizer", false), pawn.genes.IsXenogene(this));
+                pawn.genes.RemoveGene(this);
+            }
         }
 
         public GeneDef ValidateAndRandomize()

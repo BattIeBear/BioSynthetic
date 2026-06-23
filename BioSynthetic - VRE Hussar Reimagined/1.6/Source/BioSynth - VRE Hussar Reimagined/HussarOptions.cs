@@ -6,12 +6,17 @@ namespace BioSynth_VREHussarReimagined
     public class AllowBattleReady : PatchOperation
     {
         private PatchOperation BattleReady;
-
+        private PatchOperation NoAptitude;
+        
         protected override bool ApplyWorker(XmlDocument xml)
         {
             if (BioSynthVREHussarSettings.BattleReady)
             {
                 BattleReady.Apply(xml);
+            }
+            if (BioSynthVREHussarSettings.NoAptitude)
+            {
+                NoAptitude.Apply(xml);
             }
             return true;
         }

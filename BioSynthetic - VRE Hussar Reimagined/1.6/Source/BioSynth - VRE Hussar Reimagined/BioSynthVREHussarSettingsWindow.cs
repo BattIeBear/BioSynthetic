@@ -27,7 +27,16 @@ namespace BioSynth_VREHussarReimagined
 
             listingStandard.Label("BioSynth_VREHussar_Label1".Translate());
             listingStandard.CheckboxLabeled("BioSynth_VREHussar_AllowBattleReady".Translate(), ref BioSynthVREHussarSettings.BattleReady, "BioSynth_VREHussar_AllowBattleReadyDesc".Translate());
+            if (BioSynthVREHussarSettings.BattleReady)
+            {
+                BioSynthVREHussarSettings.NoAptitude = false;
+            }
             listingStandard.CheckboxLabeled("BioSynth_VREHussar_MinimizeOverlap".Translate(), ref BioSynthVREHussarSettings.MinimizeOverlap, "BioSynth_VREHussar_MinimizeOverlapDesc".Translate());
+            listingStandard.CheckboxLabeled("BioSynth_VREHussar_NoAptitude".Translate(), ref BioSynthVREHussarSettings.NoAptitude, "BioSynth_VREHussar_NoAptitudeDesc".Translate());
+            if (BioSynthVREHussarSettings.NoAptitude)
+            {
+                BioSynthVREHussarSettings.BattleReady = false;
+            }
 
             listingStandard.GapLine();
 

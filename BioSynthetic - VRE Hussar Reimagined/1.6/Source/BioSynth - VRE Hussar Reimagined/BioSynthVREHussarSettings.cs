@@ -11,6 +11,7 @@ namespace BioSynth_VREHussarReimagined
         ///Traits
         public static bool BattleReady = true;
         public static bool MinimizeOverlap = true;
+        public static bool NoAptitude = false;
 
         ///Drawbacks
         public static bool EnableDrawbacks = true;
@@ -38,6 +39,7 @@ namespace BioSynth_VREHussarReimagined
         {
             Scribe_Values.Look(ref BattleReady, "BattleReady", true);
             Scribe_Values.Look(ref MinimizeOverlap, "MinimizeOverlap", true);
+            Scribe_Values.Look(ref NoAptitude, "NoAptitude", false);
             Scribe_Values.Look(ref EnableDrawbacks, "EnableDrawbacks", true);
             Scribe_Values.Look(ref DrawbackChance, "DrawbackChance", 10);
             Scribe_Values.Look(ref DisablePyromania, "DisablePyromania", false);

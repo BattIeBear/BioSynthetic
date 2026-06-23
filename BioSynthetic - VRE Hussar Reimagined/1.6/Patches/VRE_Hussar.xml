@@ -11,7 +11,6 @@
 						<li>BattIeBear_BattleReady_Randomizer</li>
 					</value>
 				</li>
-
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
 					<value>
@@ -21,9 +20,20 @@
 			</operations>
 		</BattleReady>
 
+		<NoAptitude Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/XenotypeDef[defName="Hussar"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[text()="VREHT_WeaponAptitude_Randomizer"]</xpath>
+				</li>
+			</operations>
+		</NoAptitude>
 
 	</Operation>
 
+	
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/GeneDef[defName="VREH_Toughness"]/displayCategory</xpath>
 		<value>
