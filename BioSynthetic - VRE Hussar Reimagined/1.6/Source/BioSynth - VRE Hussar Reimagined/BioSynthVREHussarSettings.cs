@@ -50,9 +50,9 @@ namespace BioSynth_VREHussarReimagined
             Scribe_Values.Look(ref Bloodletter, "Bloodletter", false);
             Scribe_Values.Look(ref Bloodthirster, "Bloodthirster", false);
             Scribe_Values.Look(ref Horns, "Horns", true);
-            //Scribe_Values.Look(ref Ridges, "Ridges", true);
-            //Scribe_Values.Look(ref Glidewings, "Glidewings", true);
-            //Scribe_Values.Look(ref Giant, "Giant", true);
+            Scribe_Values.Look(ref Ridges, "Ridges", false);
+            Scribe_Values.Look(ref Glidewings, "Glidewings", true);
+            Scribe_Values.Look(ref Giant, "Giant", true);
             Scribe_Values.Look(ref Impid, "Impid", true);
             Scribe_Values.Look(ref IncludeOld, "IncludeOld", 0);
             Scribe_Values.Look(ref ConvertToNew, "ConvertToNew", false);
