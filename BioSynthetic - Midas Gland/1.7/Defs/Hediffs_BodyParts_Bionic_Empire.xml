@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Midas gland -->
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>biosynth_MidasGland</defName>
+		<label>Midas gland</label>
+		<labelNoun>a Midas gland</labelNoun>
+		<description>An installed Midas gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MidasGland</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_MidasGland</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.95</postFactor>
+					</li>
+				</capMods>
+				<statOffsets>
+					<PawnBeauty>1</PawnBeauty>
+					<PsychicSensitivity>0.05</PsychicSensitivity>
+					<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="BioSynth_MidasGland.HediffCompProperties_ChangeGraphic_Midas"/>
+		</comps>
+		<tags>
+			<li>ArmorGland</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>biosynth_MidasGland</defName>
+		<label>Midas gland</label>
+		<description>This bionic gland releases chemicals and nanomachines that transform the user's skin until they resemble a sculpture of gold. While it does not refine the user's features, this sort of epidermal implant is considered "haute couture" on various glitterworlds.
+
+Due to its materials, the Midas gland helps to dissipate neural heat and increases its user's psychic sensitivity, though the additional weight does slightly decrease its user's speed.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallMidasGland</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<costList>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Gold>20</Gold>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>SkinHardening</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>biosynth_InstallMidasGland</defName>
+		<label>install Midas gland</label>
+		<description>Install a Midas gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MidasGland</ThingDef>
+			<HediffDef>biosynth_MidasGland</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Midas gland.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_MidasGland</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_MidasGland</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_MidasGland</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>ArmorGland</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>biosynth_RemoveMidasGland</defName>
+		<label>remove Midas gland</label>
+		<description>Remove Midas gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MidasGland</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Removing Midas gland.</jobString>
+		<removesHediff>biosynth_MidasGland</removesHediff>
+	</RecipeDef>
+
+	<!-- Mercury gland -->
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>biosynth_MercuryGland</defName>
+		<label>Mercury gland</label>
+		<labelNoun>a Mercury gland</labelNoun>
+		<description>An installed Mercury gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MercuryGland</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>biosynth_MercuryGland</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.95</postFactor>
+					</li>
+				</capMods>
+				<statOffsets>
+					<PawnBeauty>1</PawnBeauty>
+					<ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+					<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="BioSynth_MidasGland.HediffCompProperties_ChangeGraphic_Mercury"/>
+		</comps>
+		<tags>
+			<li>ArmorGland</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>biosynth_MercuryGland</defName>
+		<label>Mercury gland</label>
+		<description>This bionic gland releases chemicals and nanomachines that transform the user's skin until they resemble a sculpture of silver. While it does not refine the user's features, this sort of epidermal implant is considered "haute couture" on various glitterworlds.
+
+Due to the antimicrobial properties of silver, the Mercury gland improves the pawn's ability to recover from diseases and keeps it sterile during surgeries. Though sharing a name with quicksilver, this implant still slows its user down.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>biosynth_InstallMercuryGland</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<costList>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Gold>20</Gold>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>SkinHardening</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>biosynth_InstallMercuryGland</defName>
+		<label>install Mercury gland</label>
+		<description>Install a Mercury gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MercuryGland</ThingDef>
+			<HediffDef>biosynth_MercuryGland</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Mercury gland.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>biosynth_MercuryGland</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>biosynth_MercuryGland</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>biosynth_MercuryGland</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>ArmorGland</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>biosynth_RemoveMercuryGland</defName>
+		<label>remove Mercury gland</label>
+		<description>Remove Mercury gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>biosynth_MercuryGland</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Removing Mercury gland.</jobString>
+		<removesHediff>biosynth_MercuryGland</removesHediff>
+	</RecipeDef>
+
+</Defs>

@@ -6,9 +6,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>
-V1.6
+V1.7
 
 This adds two new implants, Midas and Mercury glands, which take the same implant slot as the Toughskin/Armorskin/Stoneskin glands. Both glands increase the pawn's beauty score by one, with the Midas gland also increasing psychic sensitivity psychic recover rate, while the Mercury gland increases immunity gain speed and surgery success chance instead.
 

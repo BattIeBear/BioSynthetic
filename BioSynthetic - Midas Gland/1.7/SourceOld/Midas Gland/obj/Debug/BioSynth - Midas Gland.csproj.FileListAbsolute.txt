@@ -1,0 +1,12 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Midas Gland\Assemblies\BioSynth - Midas Gland.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Midas Gland\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Midas Gland\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Midas Gland\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\Assemblies\BioSynth - Midas Gland.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\1.6\Assemblies\BioSynth - Midas Gland.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\1.6\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\1.6\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Midas Gland\1.6\Source\Midas Gland\obj\Debug\BioSynth - Midas Gland.dll

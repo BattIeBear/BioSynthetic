@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!--Gold-->
+	<Operation Class="BioSynth_MidasGland.GoldColorOptions">
+
+		<Royal Class="PatchOperationSequence">
+			<operations>
+				<!--Gold Tiles-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/TerrainDef[defName= "GoldTile"]/color</xpath>
+					<value>
+						<color>(219,180,12)</color>
+					</value>
+				</li>
+				<!--Gold Stuff-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName= "Gold"]/stuffProps/color</xpath>
+					<value>
+						<color>(219,180,12)</color>
+					</value>
+				</li>
+			</operations>
+		</Royal>
+
+	</Operation>
+
+	<!--Silver Tiles-->
+	<Operation Class="BioSynth_MidasGland.SilverColorOptions">
+
+		<!--All to Default-->
+		<Consistent Class="PatchOperationSequence">
+			<operations>
+				<!--Silver Tiles-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/TerrainDef[defName= "SilverTile"]/color</xpath>
+					<value>
+						<color>(180,173,150)</color>
+					</value>
+				</li>
+				<!--Silver Stuff-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName= "Silver"]/stuffProps/color</xpath>
+					<value>
+						<color>(180,173,150)</color>
+					</value>
+				</li>
+			</operations>
+		</Consistent>
+
+		<!--All to Gray of Tile-->
+		<GraySilver Class="PatchOperationSequence">
+			<operations>
+				<!--Silver Tiles-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/TerrainDef[defName= "SilverTile"]/color</xpath>
+					<value>
+						<color>(115,115,115)</color>
+					</value>
+				</li>
+				<!--Silver Stuff-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName= "Silver"]/stuffProps/color</xpath>
+					<value>
+						<color>(115,115,115)</color>
+					</value>
+				</li>
+			</operations>
+		</GraySilver>
+
+		<!--All to Chrome-->
+		<ChromeSilver Class="PatchOperationSequence">
+			<operations>
+				<!--Silver Tiles-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/TerrainDef[defName= "SilverTile"]/color</xpath>
+					<value>
+						<color>(227,231,240)</color>
+					</value>
+				</li>
+				<!--Silver Stuff-->
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName= "Silver"]/stuffProps/color</xpath>
+					<value>
+						<color>(227,231,240)</color>
+					</value>
+				</li>
+			</operations>
+		</ChromeSilver>
+
+	</Operation>
+
+</Patch>
