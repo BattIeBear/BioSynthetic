@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>biosynth_HemogenLighting</defName>
+		<workerClass>BioSynth_HemogenLighting.ThoughtWorker_HemogenLighting</workerClass>
+		<requiredGenes>
+			<li>Bloodfeeder</li>
+		</requiredGenes>
+		<stages>
+			<li>
+				<label>blood lighting</label>
+				<description>The light flickers, almost like a pulse...</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

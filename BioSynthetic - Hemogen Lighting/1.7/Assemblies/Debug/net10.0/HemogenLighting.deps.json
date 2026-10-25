@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "HemogenLighting/1.0.0": {
+        "runtime": {
+          "HemogenLighting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HemogenLighting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\Source\Hemogen Lighting\obj\Debug\Hemogen Lighting.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\Source\Hemogen Lighting\obj\Debug\Hemogen Lighting.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\Assemblies\Hemogen Lighting.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\Source\Hemogen Lighting\obj\Debug\Hemogen Lighting.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\1.6\Assemblies\Hemogen Lighting.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\1.6\Source\Hemogen Lighting\obj\Debug\Hemogen Lighting.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\1.6\Source\Hemogen Lighting\obj\Debug\Hemogen Lighting.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynth - Hemogen Lighting\1.6\Source\Hemogen Lighting\obj\Debug\Hemogen Lighting.dll
