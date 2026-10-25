@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Synapse overload -->
+
+	<HediffDef>
+		<defName>biosynth_MinorSynapseOverload</defName>
+		<label>synaptic overload (minor)</label>
+		<labelNoun>a minor synaptic overload</labelNoun>
+		<description>A consequence of having too many integrated signal chips, constant stimulation of the nervous system leads to headaches and difficulty concentrating.</description>
+		<hediffClass>Hediff</hediffClass>
+		<stages>
+			<li>
+				<painOffset>0.10</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.95</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>biosynth_MajorSynapseOverload</defName>
+		<label>synaptic overload (major)</label>
+		<labelNoun>a major synaptic overload</labelNoun>
+		<description>A consequence of having too many integrated signal chips, further degradation of the nervous system leads to worsened headaches and a decrease in overall focus.</description>
+		<hediffClass>Hediff</hediffClass>
+		<stages>
+			<li>
+				<painOffset>0.15</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.9</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>biosynth_ExtremeSynapseOverload</defName>
+		<label>synaptic overload (extreme)</label>
+		<labelNoun>an extreme synaptic overload</labelNoun>
+		<description>A consequence of having too many integrated signal chips, characterized by twitching and trembling, overall body pain, and severe mental fatigue.</description>
+		<hediffClass>Hediff</hediffClass>
+		<stages>
+			<li>
+				<painOffset>0.20</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.85</setMax>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

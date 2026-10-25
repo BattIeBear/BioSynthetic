@@ -6,22 +6,26 @@
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>
-V1.6
+		V1.7
 
-Adds several new implants which all require the signal chip (dropped by Diaboli in the Biotech DLC) to be crafted, collectively called "diablitech". These implants are designed to be more slightly powerful than their bionic counterparts, but having too many installed will put a serious strain on their bearer's nervous system.
+		Adds several new implants which all require the signal chip (dropped by Diaboli in the Biotech DLC) to be crafted, collectively called "diablitech". These implants are designed to be more slightly powerful than their bionic counterparts, but having too many installed will put a serious strain on their bearer's nervous system.
 
-These implants include:
-- Evil eye: A bionic eye designed to make its bearer more accurate and deadly. Only one can be installed per pawn.
-- Mephistopheles implant: a bionic ear replacement guaranteed to make its bearer a better negotiator and get better prices. Only one can be installed per pawn.
-- Harmonious vox: A bionic voice implant that makes its bearer more likable and persuasive.
-- Discordant vox: A bionic voice implant that makes its bearer more intimidating and commanding.
-- Shadow spine: A bionic spine that makes its bearer more agile and faster, making them harder to hit in melee.
-- Infernal stomach: A bionic stomach that makes its bearer less likely to get food poisoning, and gives them the ability to spew fire. This implant also requires a Powerfocus chip, dropped by War Queens.
-- Devil's heart: A bionic heart that requires expensive materials like Devilstrand, Bioferrite, a Nano Structuring chip from a fallen Apocriton, and, most importantly, Luciferium. This complex structure allows many of the benefits of Luciferium to be gained without allowing the mechanites to fully enter the bloodstream, thus preventing addiction. It is not without its risks, though, as damage to the heart can cause the mechanites to escape (toggleable in settings).
+		These implants include:
+		- Evil eye: A bionic eye designed to make its bearer more accurate and deadly. Only one can be installed per pawn.
+		- Mephistopheles implant: a bionic ear replacement guaranteed to make its bearer a better negotiator and get better prices. Only one can be installed per pawn.
+		- Harmonious vox: A bionic voice implant that makes its bearer more likable and persuasive.
+		- Discordant vox: A bionic voice implant that makes its bearer more intimidating and commanding.
+		- Shadow spine: A bionic spine that makes its bearer faster and more agile, making them harder to hit in melee.
+		- Infernal stomach: A bionic stomach that makes its bearer less likely to get food poisoning, and gives them the ability to spew fire. This implant also requires a Powerfocus chip, dropped by War Queens.
+		- Devil's heart: A bionic heart that requires expensive materials like Devilstrand, Bioferrite, a Nano Structuring chip from a fallen Apocriton, and, most importantly, Luciferium. This complex structure allows many of the benefits of Luciferium to be gained without allowing the mechanites to fully enter the bloodstream, thus preventing addiction. It is not without its risks, though, as damage to the heart can cause the mechanites to escape (toggleable in settings).
+		- Hemofilter fangs: A bionic jaw that allows its bearer to process hemogen more effectively, acting as a built-in hemogen amplifier! This implant requires the Hemogenic gene, or else it does nothing, and takes a Powerfocus chip, dropped by War Queens.
+		- Hemonexus spine: A bionic spine that makes its bearer more efficient at using hemogen, acting as a built in hemogen pump! This implant requires the Hemogenic gene, or else it does nothing, and takes a Powerfocus chip, dropped by War Queens.
+		- Psychofluid spine: A bionic spine that increases psychic sensitivity, meditation rate, and heat dissipation. Acts as a psychofluid pump, though is usable by any pawns, not just Hemogenic ones! This implant requires a Powerfocus chip, dropped by War Queens.
 
-Found an issue? Leave a comment!
+		Found an issue? Leave a comment!
 	</description>
 	<modDependencies>
 		<li>

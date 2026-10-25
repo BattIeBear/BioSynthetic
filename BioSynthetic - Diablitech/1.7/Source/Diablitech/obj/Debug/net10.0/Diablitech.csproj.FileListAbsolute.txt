@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Assemblies\Debug\net10.0\Diablitech.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Assemblies\Debug\net10.0\Diablitech.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Assemblies\Debug\net10.0\Diablitech.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\refint\Diablitech.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\ref\Diablitech.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Diablitech\1.7\Source\Diablitech\obj\Debug\net10.0\Diablitech.csproj.Up2Date
