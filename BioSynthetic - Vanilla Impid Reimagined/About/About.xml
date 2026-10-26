@@ -5,6 +5,7 @@
 	<packageId>BattIeBear.BioSynth.ImpidReimagined</packageId>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -13,7 +14,7 @@
 			<steamWorkshopUrl>https://store.steampowered.com/app/1826140</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<description>V1.6
+	<description>V1.7
 
 A mod that reimagines impids as extremely mobile raiders, with a focus on hit-and-run tactics and their innate fire resistance. This mod adds a new fierce impid faction, staying true to their image as raiders while allowing for alliances down the road. Impid attacks will often come equipped with basic firearms stolen from other factions, while making them not quite as numerous as other tribals.
 

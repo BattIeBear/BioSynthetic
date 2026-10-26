@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Assemblies\Debug\net10.0\VanillaImpidReimagined.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Assemblies\Debug\net10.0\VanillaImpidReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Assemblies\Debug\net10.0\VanillaImpidReimagined.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaImpidReimagined.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaImpidReimagined.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaImpidReimagined.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaImpidReimagined.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaImpidReimagined.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaImpidReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\refint\VanillaImpidReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaImpidReimagined.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\ref\VanillaImpidReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - Vanilla Impid Reimagined\1.7\Source\VanillaImpidReimagined\obj\Debug\net10.0\VanillaI.D3E3F74A.Up2Date
