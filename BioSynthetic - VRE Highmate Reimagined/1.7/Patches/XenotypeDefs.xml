@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--Adds the vanilla ink black hair gene to the highmate-->
+	<Operation Class="BioSynth_VRE_Highmate.ExtraHairColorOptions">
+		
+		<ExtraHairColor Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>Hair_InkBlack</li>
+			</value>
+		</ExtraHairColor>
+		
+	</Operation>
+
+	<!--Adds the vanilla light red and dark gray skin color genes to the highmate-->
+	<Operation Class="BioSynth_VRE_Highmate.ExtraSkinColorOptions">
+		
+		<ExtraSkinColor Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>Skin_PaleRed</li>
+				<li>Skin_SlateGray</li>
+			</value>
+		</ExtraSkinColor>
+		
+	</Operation>
+
+	<!--Adds the bright pink skin color gene (added by this mod) to the highmate-->
+	<Operation Class="BioSynth_VRE_Highmate.CustomSkinColorOptions">
+		
+		<CustomSkinColor Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>BattIeBear.Skin_Pink</li>
+			</value>
+		</CustomSkinColor>
+		
+	</Operation>
+
+	<!--Removes the High Libido gene (to make changing it easier in the next section)-->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes/li[text()="Libido_High"]</xpath>
+	</Operation>
+
+	<!--depending on the mod settings, either adds back the High Libido gene-->
+	<!--or adds the very high libido gene, the loving dependency gene, and the flirty gene, all created by VRE-->
+	<Operation Class="BioSynth_VRE_Highmate.AdditionalGeneOptions">
+		
+		<UseAdditionalGenes Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>VRE_Libido_VeryHigh</li>
+				<li>VRE_LovinDependency</li>
+				<li>VRE_Flirty</li>
+			</value>
+		</UseAdditionalGenes>
+		
+		<UseDefaultGenes Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+			<value>
+				<li>Libido_High</li>
+			</value>
+		</UseDefaultGenes>
+		
+	</Operation>
+
+</Patch>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!--Creates a new skin color gene that is bright pink-->
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>BattIeBear.Skin_Pink</defName>
+		<label>pink skin</label>
+		<labelShortAdj>hot pink</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that gives their skin a bright pink color.</description>
+		<skinColorOverride>(255, 132, 194)</skinColorOverride>
+		<displayOrderInCategory>81</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>pink</symbol>
+				</li>
+				<li>
+					<symbol>rose</symbol>
+				</li>
+				<li>
+					<symbol>candy</symbol>
+				</li>
+				<li>
+					<symbol>charm</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<!--Creates a new tail gene that stops a tail from growing on xenotypes that otherwise would have one-->
+	<GeneDef ParentName="GeneTailBase">
+		<defName>BattIeBear.Tailless</defName>
+		<label>tailless</label>
+		<description>Carriers of this gene do not grow a tail, even if other members of the Xenotype do.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tailless</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+	</GeneDef>
+
+</Defs>

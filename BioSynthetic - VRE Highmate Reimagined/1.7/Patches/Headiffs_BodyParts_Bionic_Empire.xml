@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--Allows the Aesthetic Shaper to switch the pawn's body to use the same image the Perfect Body-->
+	<Operation Class="BioSynth_VRE_Highmate.AestheticShaperPerfectBodyOptions">
+		
+		<Uses Class="PatchOperationAdd">
+			<xpath>/Defs/HediffDef[defName="AestheticShaper"]</xpath>
+			<value>
+				<comps>
+					<li Class="BioSynth_VRE_Highmate.HediffCompProperties_ChangeGraphic"/>
+				</comps>
+			</value>
+		</Uses>
+		
+	</Operation>
+
+</Patch>

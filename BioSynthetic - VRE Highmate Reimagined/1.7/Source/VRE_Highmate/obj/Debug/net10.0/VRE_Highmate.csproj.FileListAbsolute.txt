@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Assemblies\Debug\net10.0\VRE_Highmate.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Assemblies\Debug\net10.0\VRE_Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Assemblies\Debug\net10.0\VRE_Highmate.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_Highmate.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_Highmate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_Highmate.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_Highmate.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_Highmate.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\refint\VRE_Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_Highmate.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\ref\VRE_Highmate.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Highmate Reimagined\1.7\Source\VRE_Highmate\obj\Debug\net10.0\VRE_High.8DA26ABB.Up2Date
