@@ -9,12 +9,24 @@
 		<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="VRE_Instability_Progressive"]</xpath>
 	</Operation>
 
-	<Operation Class="BioSynth_VRE_Wasters.GauntBodyOptions">
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Genes</li>
+		</mods>
+		<match Class="BioSynth_VRE_Wasters.GauntBodyOptions">
 
-		<DisableGaunt Class="PatchOperationRemove">
-			<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="VRE_GauntBody"]</xpath>
-		</DisableGaunt>
+			<DisableGaunt Class="PatchOperationRemove">
+				<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="AG_GauntBody"]</xpath>
+			</DisableGaunt>
 
+		</match>
+		<nomatch Class="BioSynth_VRE_Wasters.GauntBodyOptions">
+
+			<DisableGaunt Class="PatchOperationRemove">
+				<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="VRE_GauntBody"]</xpath>
+			</DisableGaunt>
+
+		</nomatch>
 	</Operation>
 
 </Patch>

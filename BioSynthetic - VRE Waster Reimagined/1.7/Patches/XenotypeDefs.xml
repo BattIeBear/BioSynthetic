@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="BioSynth_VRE_Wasters.AddNewHairOptions">
+
+		<AddNewHair Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+			<value>
+				<li>Hair_DarkBlack</li>
+				<li>Hair_MidBlack</li>
+				<li>Hair_DarkReddish</li>
+			</value>
+		</AddNewHair>
+
+	</Operation>
+	<Operation Class="BioSynth_VRE_Wasters.AddNewSkinOptions">
+
+		<AddNewSkin Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+			<value>
+				<li>Skin_InkBlack</li>
+				<li>Skin_LightGray</li>
+			</value>
+		</AddNewSkin>
+
+	</Operation>
+
+	<Operation Class="BioSynth_VRE_Wasters.InstabilityOptions">
+
+		<KeepInstability Class="PatchOperationAdd">
+			<xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+			<value>
+				<li>Instability_Mild</li>
+			</value>
+		</KeepInstability>
+
+	</Operation>
+	
+</Patch>
