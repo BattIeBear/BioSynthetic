@@ -6,9 +6,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>
-V1.6
+V1.7
 
 A mod that reimagines and simplifies Vanilla Races Expanded - Hussar. The main focus of the mod is to address the weapon aptitude genes, as these can make certain Hussars less viable than others. This mod instead replaces them with the new Battle Ready gene, which will guarantee they spawn with one of several positive traits (Brawler, Careful Shooter, Iron Willed, Tough, or Trigger Happy), though the intense genetic conditioning can also cause a drawback (Greedy, Neurotic, Pyromaniac, or Psychopath).
 

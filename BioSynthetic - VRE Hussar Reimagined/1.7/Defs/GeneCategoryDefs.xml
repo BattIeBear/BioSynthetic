@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <GeneCategoryDef>
+    <defName>BattIeBear_BattleReady</defName>
+    <label>battle ready</label>
+    <displayPriorityInXenotype>701</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  
+</Defs>

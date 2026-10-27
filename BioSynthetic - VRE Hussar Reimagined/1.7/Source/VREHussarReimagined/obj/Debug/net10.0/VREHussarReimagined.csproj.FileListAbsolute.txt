@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Assemblies\Debug\net10.0\VREHussarReimagined.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Assemblies\Debug\net10.0\VREHussarReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Assemblies\Debug\net10.0\VREHussarReimagined.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussarReimagined.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussarReimagined.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussarReimagined.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussarReimagined.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussarReimagined.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussarReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\refint\VREHussarReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussarReimagined.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\ref\VREHussarReimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Hussar Reimagined\1.7\Source\VREHussarReimagined\obj\Debug\net10.0\VREHussa.86E68035.Up2Date
