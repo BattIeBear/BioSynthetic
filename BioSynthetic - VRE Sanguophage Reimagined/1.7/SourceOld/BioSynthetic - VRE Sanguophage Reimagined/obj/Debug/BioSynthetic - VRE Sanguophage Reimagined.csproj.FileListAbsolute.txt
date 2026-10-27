@@ -1,0 +1,4 @@
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Sanguophage Reimagined\1.6\Assemblies\BioSynthetic - VRE Sanguophage Reimagined.dll
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Sanguophage Reimagined\1.6\Source\BioSynthetic - VRE Sanguophage Reimagined\obj\Debug\BioSynthetic - VRE Sanguophage Reimagined.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Sanguophage Reimagined\1.6\Source\BioSynthetic - VRE Sanguophage Reimagined\obj\Debug\BioSynthetic - VRE Sanguophage Reimagined.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\BioSynthetic - VRE Sanguophage Reimagined\1.6\Source\BioSynthetic - VRE Sanguophage Reimagined\obj\Debug\BioSynthetic - VRE Sanguophage Reimagined.dll

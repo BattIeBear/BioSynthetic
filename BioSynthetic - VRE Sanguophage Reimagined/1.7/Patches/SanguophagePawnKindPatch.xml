@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!--Removes Bruxa from spawn chance-->
+	<Operation Class="BioSynth_VRE_Sanguophage.RemoveBruxaOptions">
+
+		<soft Class="PatchOperationRemove">
+			<xpath>/Defs/PawnKindDef[@Name = "SanguophageBase"]/xenotypeSet/xenotypeChances/VRE_Bruxa</xpath>
+		</soft>
+
+	</Operation>
+
+	<!--Removes Ekkimian from spawn chance-->
+	<Operation Class="BioSynth_VRE_Sanguophage.RemoveEkkimianOptions">
+
+		<soft Class="PatchOperationRemove">
+			<xpath>/Defs/PawnKindDef[@Name = "SanguophageBase"]/xenotypeSet/xenotypeChances/VRE_Ekkimian</xpath>
+		</soft>
+
+	</Operation>
+
+	<!--Removes Strigoi from spawn chance-->
+	<Operation Class="BioSynth_VRE_Sanguophage.RemoveStrigoiOptions">
+
+		<soft Class="PatchOperationRemove">
+			<xpath>/Defs/PawnKindDef[@Name = "SanguophageBase"]/xenotypeSet/xenotypeChances/VRE_Strigoi</xpath>
+		</soft>
+
+	</Operation>
+
+	<!--Forces Sanguophages to always spawn as baseliners-->
+	<Operation Class="BioSynth_VRE_Sanguophage.SanguophageEndotypeOptions">
+			<baseliner Class="PatchOperationRemove">
+				<xpath>/Defs/XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
+			</baseliner>
+	</Operation>
+
+</Patch>

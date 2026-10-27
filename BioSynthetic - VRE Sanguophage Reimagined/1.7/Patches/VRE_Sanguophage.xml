@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--Bruxa Options-->
+	<Operation Class="BioSynth_VRE_Sanguophage.RemoveBruxaOptions">
+
+		<non Class="PatchOperationSequence">
+			<operations>
+				<li Class="BioSynth_VRE_Sanguophage.BruxaBodyOptions">
+					<standard Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Bruxa"]/genes</xpath>
+						<value>
+							<li>Body_Standard</li>
+						</value>
+					</standard>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.BruxaHairOptions">
+					<non Class="PatchOperationRemove">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Bruxa"]/genes/li[text()="VRE_SanguineHair"]</xpath>
+					</non>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.BruxaPerfectOptions"  MayRequire="vanillaracesexpanded.highmate">
+					<perfect Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Bruxa"]/genes</xpath>
+						<value>
+							<li>VRE_PerfectBody</li>
+						</value>
+					</perfect>
+				</li>
+			</operations>
+		</non>
+
+	</Operation>
+	
+	<!--Ekkimian Options-->
+	<Operation Class="BioSynth_VRE_Sanguophage.RemoveEkkimianOptions">
+
+		<non Class="PatchOperationSequence">
+			<operations>
+				<li Class="BioSynth_VRE_Sanguophage.EkkimianEarOptions">
+					<both Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes</xpath>
+						<value>
+							<li>VRE_BatEars</li>
+						</value>
+					</both>
+					<neither Class="PatchOperationRemove">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes/li[text()="VRE_UpperBatEars"]</xpath>
+					</neither>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.EkkimianBeardOptions">
+					<beardless Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes</xpath>
+						<value>
+							<li>Beard_NoBeardOnly</li>
+						</value>
+					</beardless>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.EkkimianBodyOptions">
+					<hulk Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes</xpath>
+						<value>
+							<li>Body_Hulk</li>
+						</value>
+					</hulk>
+					<any Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes/li[text()="Body_Thin"]</xpath>
+							</li>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes/li[text()="Body_Standard"]</xpath>
+							</li>
+						</operations>
+					</any>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.EkkimianWasterOptions"  MayRequire="vanillaracesexpanded.waster">
+					<gaunt Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.waster">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes</xpath>
+						<value>
+							<li>VRE_GauntBody</li>
+						</value>
+					</gaunt>
+				</li>
+			</operations>
+		</non>
+
+	</Operation>
+	
+	<!--Strigoi Options-->
+	<Operation Class="BioSynth_VRE_Sanguophage.RemoveStrigoiOptions">
+
+		<non Class="PatchOperationSequence">
+			<operations>
+				<li Class="BioSynth_VRE_Sanguophage.StrigoiEarOptions">
+					<both Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+						<value>
+							<li>VRE_UpperBatEars</li>
+						</value>
+					</both>
+					<neither Class="PatchOperationRemove">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes/li[text()="VRE_BatEars"]</xpath>
+					</neither>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.StrigoiNoseOptions">
+					<non Class="PatchOperationRemove">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes/li[text()="VRE_BatNose"]</xpath>
+					</non>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.StrigoiHairOptions">
+					<non Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+						<value>
+							<li>Hair_BaldOnly</li>
+						</value>
+					</non>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.StrigoiBeardOptions">
+					<beardless Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+						<value>
+							<li>Beard_NoBeardOnly</li>
+						</value>
+					</beardless>
+				</li>
+				<li Class="BioSynth_VRE_Sanguophage.StrigoiBodyOptions">
+					<non_skinny Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+						<value>
+							<li>Body_Hulk</li>
+							<li>Body_Fat</li>
+							<li>Body_Standard</li>
+						</value>
+					</non_skinny>
+					<large Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+						<value>
+							<li>Body_Hulk</li>
+							<li>Body_Fat</li>
+						</value>
+					</large>
+					<hulk Class="PatchOperationAdd">
+						<xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+						<value>
+							<li>Body_Hulk</li>
+						</value>
+					</hulk>
+				</li>
+			</operations>
+		</non>
+		
+	</Operation>
+
+</Patch>

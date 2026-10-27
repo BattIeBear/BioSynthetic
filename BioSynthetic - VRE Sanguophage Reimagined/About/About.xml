@@ -5,6 +5,7 @@
 	<packageId>BattIeBear.BioSynth.VRESanguophage</packageId>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -24,7 +25,7 @@
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<description>V1.6
+	<description>V1.7
 
 This mod is a reimagining of the Sanguophage's added by Vanilla Races Expanded - Sanguophage. It focuses on customization, with several options that affect the appearance of Bruxa, Ekkimian, and Strigoi, as well as the ability to disable new pawns of any type from being generated.
 
